@@ -1,0 +1,88 @@
+Watching for file changes with StatReloader
+2024-01-28 02:35:12 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 02:35:16 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 02:35:24 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 02:35:24 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 02:35:24 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 02:35:27 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 02:35:28 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 02:35:28 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 02:35:29 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-01-28 03:23:19 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-01-28 03:24:30 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Watching for file changes with StatReloader
+2024-01-28 03:26:13 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:26:16 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:26:17 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:26:17 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:26:21 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:26:22 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:26:25 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Watching for file changes with StatReloader
+2024-01-28 03:27:32 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:27:35 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:27:36 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:27:36 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:27:42 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:27:43 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:27:43 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:27:44 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:28:20 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:28:21 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:28:32 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:28:33 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /about HTTP/1.1" 301 0
+2024-01-28 03:28:35 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:30:09 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:30:11 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-01-28 03:30:12 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:30:13 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:30:51 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:30:55 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Watching for file changes with StatReloader
