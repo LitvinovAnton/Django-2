@@ -18,71 +18,1133 @@ Watching for file changes with StatReloader
 2024-01-28 02:35:29 - homepage
 "GET / HTTP/1.1" 200 135
 Watching for file changes with StatReloader
-/root/django_project/Homework/homework_project/settings.py changed, reloading.
+2024-01-28 03:20:33 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:20:34 - homepage
+"GET / HTTP/1.1" 200 135
+2024-01-28 03:20:39 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71206
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71206
+2024-02-06 22:52:09 - homepage
+"GET / HTTP/1.1" 200 135
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 82303
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71206
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 84430
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'Homework/homework_app/templates/homework_app/all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Homework/homework_app/templates/homework_app/all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 85150
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'Homework/homework_app/templates/homework_app/all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Homework/homework_app/templates/homework_app/all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 85150
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'Homework/homework_app/templates/homework_app/all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Homework/homework_app/templates/homework_app/all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 85150
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_clients/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 155, in get_all_clients
+    return render(request, 'templates/homework_app/all_clients.html', {'clients': clients})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/homework_app/all_clients.html
+"GET /get_clients/ HTTP/1.1" 500 84798
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 2793
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 3107
+"GET /get_products/ HTTP/1.1" 200 5607
+"GET /get_orders/ HTTP/1.1" 200 2756
+"GET /get_orders/ HTTP/1.1" 200 2756
+"GET /get_orders/ HTTP/1.1" 200 2698
+"GET /get_orders/ HTTP/1.1" 200 2707
+"GET /get_orders/ HTTP/1.1" 200 2707
+"GET /get_orders/ HTTP/1.1" 200 1936
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /get_order/1
+"GET /get_order/1 HTTP/1.1" 404 3157
+Not Found: /get_order/1/
+"GET /get_order/1/ HTTP/1.1" 404 3160
+Not Found: /get_order/
+"GET /get_order/ HTTP/1.1" 404 3154
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3157
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3156
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3158
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3158
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3158
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3158
+Not Found: /get_order/3
+"GET /get_order/3 HTTP/1.1" 404 3158
+Not Found: /get_order/3/
+"GET /get_order/3/ HTTP/1.1" 404 3161
+Not Found: /get_order/3/
+"GET /get_order/3/ HTTP/1.1" 404 3161
+Not Found: /get_order/3/
+"GET /get_order/3/ HTTP/1.1" 404 3161
+Not Found: /get_order/3/
+"GET /get_order/3/ HTTP/1.1" 404 3161
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /get_order/3/
+"GET /get_order/3/ HTTP/1.1" 404 3355
+Not Found: /products_by_order/
+"GET /products_by_order/ HTTP/1.1" 404 3373
+Not Found: /products_by_order/2
+"GET /products_by_order/2 HTTP/1.1" 404 3376
+Not Found: /products_by_order/2/
+"GET /products_by_order/2/ HTTP/1.1" 404 3379
+Not Found: /products_by_order/{2}/
+"GET /products_by_order/%7B2%7D/ HTTP/1.1" 404 3389
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /products_by_order/{2}/
+"GET /products_by_order/%7B2%7D/ HTTP/1.1" 404 3590
+Not Found: /products_by_order/2/
+"GET /products_by_order/2/ HTTP/1.1" 404 3580
+Not Found: /products_by_order/2
+"GET /products_by_order/2 HTTP/1.1" 404 3577
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_order/2 HTTP/1.1" 301 0
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 196, in products_by_order
+    order_products = order.order_products.all()
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /products_by_order/2/ HTTP/1.1" 500 67638
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 196, in products_by_order
+    order_products = order.order_products.all()
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /products_by_order/2/ HTTP/1.1" 500 67638
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 196, in products_by_order
+    order_products = order.order_products.all()
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /products_by_order/2/ HTTP/1.1" 500 67638
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'products_by_order.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products_by_order.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83534
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'order_id.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_id.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83390
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'order_id.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_id.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83390
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'products_by_order.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products_by_order.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83534
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'products_by_order.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products_by_order.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83534
+Not Found: /products_by_order/
+"GET /products_by_order/ HTTP/1.1" 404 3205
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'products_by_order.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products_by_order.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83534
+"GET /get_products/ HTTP/1.1" 200 5607
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'products_by_order.html', context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products_by_order.html
+"GET /products_by_order/2/ HTTP/1.1" 500 83534
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_order/2/ HTTP/1.1" 200 216
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 201, in products_by_order
+    return render(request, 'homework_app/products_by_order.html', context)
+NameError: name 'context' is not defined
+"GET /products_by_order/2/ HTTP/1.1" 500 67886
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_order/2/ HTTP/1.1" 200 216
+"GET /products_by_order/1 HTTP/1.1" 301 0
+"GET /products_by_order/1/ HTTP/1.1" 200 216
+"GET /products_by_order/1/ HTTP/1.1" 200 693
+"GET /products_by_order/2/ HTTP/1.1" 200 693
+"GET /products_by_order/3 HTTP/1.1" 301 0
+"GET /products_by_order/3/ HTTP/1.1" 200 693
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_order/3/ HTTP/1.1" 200 821
+"GET /products_by_order/1/ HTTP/1.1" 200 567
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_order/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 195, in products_by_order
+    order = Order.objects.get(id=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /products_by_order/1/ HTTP/1.1" 500 76790
+"GET /products_by_order/21/ HTTP/1.1" 200 691
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_order/21/ HTTP/1.1" 200 691
+"GET /products_by_order/21/ HTTP/1.1" 200 691
+Watching for file changes with StatReloader
+"GET /products_by_order/21/ HTTP/1.1" 200 691
+"GET /products_by_order/21/ HTTP/1.1" 200 703
+"GET /products_by_order/21/ HTTP/1.1" 200 703
+"GET /products_by_order/21/ HTTP/1.1" 200 704
+"GET /products_by_order/21/ HTTP/1.1" 200 733
+"GET /products_by_order/21/ HTTP/1.1" 200 743
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_orders/ HTTP/1.1" 200 2851
+"GET /get_clients/ HTTP/1.1" 200 4603
+"GET /get_products/ HTTP/1.1" 200 2920
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/1 HTTP/1.1" 301 0
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Not Found: /delete_client/
+"GET /delete_client/ HTTP/1.1" 404 3446
+"GET /delete_client/2 HTTP/1.1" 301 0
+Internal Server Error: /delete_client/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/2/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/2/ HTTP/1.1" 500 63622
+"GET /delete_client/10 HTTP/1.1" 301 0
+Internal Server Error: /delete_client/10/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/10/ HTTP/1.1" 500 63632
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_client/10/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got an unexpected keyword argument 'id'
+"GET /delete_client/10/ HTTP/1.1" 500 63605
+Internal Server Error: /delete_client/10/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got an unexpected keyword argument 'id'
+"GET /delete_client/10/ HTTP/1.1" 500 63605
+Internal Server Error: /delete_client/10/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got an unexpected keyword argument 'id'
+"GET /delete_client/10/ HTTP/1.1" 500 63605
+Internal Server Error: /delete_client/10/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got an unexpected keyword argument 'id'
+"GET /delete_client/10/ HTTP/1.1" 500 63605
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Not Found: /delete_client/
+"GET /delete_client/ HTTP/1.1" 404 3446
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Not Found: /favicon.ico
+Internal Server Error: /delete_client/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/2/ HTTP/1.1" 500 63622
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /delete_client/client_name
+"GET /delete_client/client_name HTTP/1.1" 404 3479
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /delete_client/Catherine%20Briggs HTTP/1.1" 301 0
+Internal Server Error: /delete_client/Catherine Briggs/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_name'
+"GET /delete_client/Catherine%20Briggs/ HTTP/1.1" 500 63802
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /delete_client/Catherine Briggs/
+"GET /delete_client/Catherine%20Briggs/ HTTP/1.1" 404 3500
+Not Found: /delete_client/Catherine Briggs/
+"GET /delete_client/Catherine%20Briggs/ HTTP/1.1" 404 3500
+Not Found: /delete_client/Catherine Briggs/
+"GET /delete_client/Catherine%20Briggs/ HTTP/1.1" 404 3500
+Not Found: /delete_client/Catherine Briggs/
+"GET /delete_client/Catherine%20Briggs/ HTTP/1.1" 404 3500
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+Internal Server Error: /delete_client/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: delete_client() got multiple values for argument 'client_id'
+"GET /delete_client/1/ HTTP/1.1" 500 63622
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/1/ HTTP/1.1" 200 63
+"GET /delete_client/1/ HTTP/1.1" 200 31
+"GET /delete_client/2/ HTTP/1.1" 200 31
+"GET /delete_client/3 HTTP/1.1" 301 0
+"GET /delete_client/3/ HTTP/1.1" 200 31
+"GET /delete_client/6 HTTP/1.1" 301 0
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/1/ HTTP/1.1" 200 31
+"GET /delete_client/6/ HTTP/1.1" 200 31
+"GET /delete_client/9/ HTTP/1.1" 200 31
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/9/ HTTP/1.1" 200 63
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/5 HTTP/1.1" 301 0
+"GET /delete_client/5/ HTTP/1.1" 200 75
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/5/ HTTP/1.1" 200 68
+"GET /delete_client/5/ HTTP/1.1" 200 68
+"GET /delete_client/3/ HTTP/1.1" 200 148
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/7 HTTP/1.1" 301 0
+"GET /delete_client/7/ HTTP/1.1" 200 149
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/7/ HTTP/1.1" 200 68
+"GET /delete_client/9/ HTTP/1.1" 200 68
+"GET /delete_client/4 HTTP/1.1" 301 0
+"GET /delete_client/4/ HTTP/1.1" 200 87
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/1/ HTTP/1.1" 200 92
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/6/ HTTP/1.1" 200 87
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_client/8 HTTP/1.1" 301 0
+"GET /delete_client/8/ HTTP/1.1" 200 91
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_order/30 HTTP/1.1" 301 0
+Internal Server Error: /delete_order/30/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homework_app.views.delete_order didn't return an HttpResponse object. It returned None instead.
+"GET /delete_order/30/ HTTP/1.1" 500 68297
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete_order/30/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 247, in delete_order
+    order = Order.objects.get(id=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /delete_order/30/ HTTP/1.1" 500 76220
+"GET /delete_order/31 HTTP/1.1" 301 0
+Internal Server Error: /delete_order/31/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homework_app.views.delete_order didn't return an HttpResponse object. It returned None instead.
+"GET /delete_order/31/ HTTP/1.1" 500 68297
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_order/32 HTTP/1.1" 301 0
+Internal Server Error: /delete_order/32/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homework_app.views.delete_order didn't return an HttpResponse object. It returned None instead.
+"GET /delete_order/32/ HTTP/1.1" 500 68297
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_order/33 HTTP/1.1" 301 0
+"GET /delete_order/33/ HTTP/1.1" 200 73
+"GET /delete_order/33/ HTTP/1.1" 200 67
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_orders/ HTTP/1.1" 200 1682
+"GET /get_products/ HTTP/1.1" 200 2920
+"GET /get_clients/ HTTP/1.1" 200 3269
+"GET /get_clients/ HTTP/1.1" 200 3327
+"GET /get_products/ HTTP/1.1" 200 2920
+"GET /get_products/ HTTP/1.1" 200 2993
+"GET /get_clients/ HTTP/1.1" 200 3342
+"GET /get_orders/ HTTP/1.1" 200 1741
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_orders/ HTTP/1.1" 200 1741
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_client/10/update_name/belka/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: update_name_client() got an unexpected keyword argument 'new_name'
+"GET /update_client/10/update_name/belka/ HTTP/1.1" 500 63874
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /update_client/10/update_name/belka/ HTTP/1.1" 200 125
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /update_product/21/update_price/100500/ HTTP/1.1" 200 131
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 131
+Not Found: /favicon.ico
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 131
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 131
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 134
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 134
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 134
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 134
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 134
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /update_order/34/add_product/21/
+"GET /update_order/34/add_product/21/ HTTP/1.1" 500 131
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /update_order/34/add_product/21/ HTTP/1.1" 200 193
+Not Found: /update_order/388/add_product/21/
+"GET /update_order/388/add_product/21/ HTTP/1.1" 404 72
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /update_order/35/add_product/21/ HTTP/1.1" 200 181
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /update_order/49/add_product/21/ HTTP/1.1" 200 181
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /delete_order/34 HTTP/1.1" 301 0
+"GET /delete_order/34/ HTTP/1.1" 200 73
+"GET /get_products/ HTTP/1.1" 200 2961
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /get_orders/ HTTP/1.1" 200 1651
+Watching for file changes with StatReloader
+"GET /update_order/37/delete_product/21/ HTTP/1.1" 200 175
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 70241
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 400 70220
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 70241
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.1" 400 70308
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 70241
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.1" 400 70308
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /get_clients/
+"GET /get_clients/ HTTP/1.1" 400 70384
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.1" 400 64102
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 64035
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 64035
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 64035
+Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.1" 400 64102
 Watching for file changes with StatReloader
+2024-02-08 02:06:31 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /get_clients.
+"GET /get_clients. HTTP/1.1" 404 4980
+"GET /get_clients/ HTTP/1.1" 200 3333
 Watching for file changes with StatReloader
-2024-01-28 03:23:19 - homepage
+"GET /get_clients/ HTTP/1.1" 200 3333
+2024-02-08 02:08:15 - homepage
 "GET / HTTP/1.1" 200 135
+2024-02-08 02:08:21 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /get_products/ HTTP/1.1" 200 2961
+"GET /get_orders/ HTTP/1.1" 200 1651
+Not Found: /product_by_order/35/
+"GET /product_by_order/35/ HTTP/1.1" 404 5004
+"GET /products_by_order/35/ HTTP/1.1" 200 625
+"GET /products_by_order/36/ HTTP/1.1" 200 615
+"GET /products_by_order/37/ HTTP/1.1" 200 986
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /get_orders/ HTTP/1.1" 200 1651
+"GET /update_order/36/add_product/22/ HTTP/1.1" 200 181
+"GET /products_by_order/36/ HTTP/1.1" 200 615
+"GET /update_order/36/add_product/21/ HTTP/1.1" 200 181
+"GET /products_by_order/36/ HTTP/1.1" 200 747
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /update_client/10/update_name/Peter/ HTTP/1.1" 200 125
+"GET /get_clients/ HTTP/1.1" 200 3333
+2024-02-08 02:13:42 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4977
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /get_clients/ HTTP/1.1" 200 3333
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4977
+"GET /get_orders/ HTTP/1.1" 200 1653
+"GET /products_by_order/35/ HTTP/1.1" 200 625
+"GET /products_by_order/37/ HTTP/1.1" 200 986
+"GET /update_order/35/add_product/24/ HTTP/1.1" 200 181
+"GET /get_orders/ HTTP/1.1" 200 1653
+"GET /update_order/35/delete_product/24/ HTTP/1.1" 200 175
+"GET /get_orders/ HTTP/1.1" 200 1653
+Not Found: /update_order/35/delete_product/24/
+"GET /update_order/35/delete_product/24/ HTTP/1.1" 404 61
+2024-02-08 02:19:21 - homepage
+"GET / HTTP/1.1" 200 135
+"GET /delete_order/35/ HTTP/1.1" 200 73
+"GET /get_orders/ HTTP/1.1" 200 1562
+Not Found: /get_client/
+"GET /get_client/ HTTP/1.1" 404 4977
+"GET /get_clients/ HTTP/1.1" 200 3333
+"GET /delete_client/30/ HTTP/1.1" 200 85
+"GET /get_clients/ HTTP/1.1" 200 3187
+2024-02-08 02:21:09 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /update_product/21/update_price/11111/ HTTP/1.1" 200 131
+"GET /get_products/ HTTP/1.1" 200 2960
+"GET /get_clients/ HTTP/1.1" 200 3187
+Not Found: /update_clienbt/29/update_name/Lotos/
+"GET /update_clienbt/29/update_name/Lotos/ HTTP/1.1" 404 5052
+"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
+"GET /get_clients/ HTTP/1.1" 200 3178
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4977
+"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
+"GET /get_clients/ HTTP/1.1" 200 3178
+"GET /get_orders/ HTTP/1.1" 200 1471
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8a\x14\x99öË³¡å\x8dP¥¬³\x02\x15l\x84®Þ\x95³¤ÿ\x08àÖndîVÜq\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
 Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-2024-01-28 03:24:30 - about us page
+2024-02-08 02:42:58 - about us page
 "GET /about/ HTTP/1.1" 200 157
-Watching for file changes with StatReloader
-2024-01-28 03:26:13 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:26:16 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:26:17 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:26:17 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:26:21 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:26:22 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:26:25 - about us page
-"GET /about/ HTTP/1.1" 200 157
-Watching for file changes with StatReloader
-2024-01-28 03:27:32 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:27:35 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:27:36 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:27:36 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:27:42 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:27:43 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:27:43 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:27:44 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:28:20 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:28:21 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:28:32 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:28:33 - about us page
-"GET /about/ HTTP/1.1" 200 157
-"GET /about HTTP/1.1" 301 0
-2024-01-28 03:28:35 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:30:09 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:30:11 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-01-28 03:30:12 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:30:13 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:30:51 - homepage
-"GET / HTTP/1.1" 200 135
-2024-01-28 03:30:55 - about us page
-"GET /about/ HTTP/1.1" 200 157
-Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 3178
+"GET /get_client/29 HTTP/1.1" 301 0
+"GET /get_client/29/ HTTP/1.1" 200 401
+"GET /get_order/37 HTTP/1.1" 301 0
+"GET /get_order/37/ HTTP/1.1" 200 1057
+"GET /get_client/17 HTTP/1.1" 301 0
+"GET /get_client/17/ HTTP/1.1" 200 406
+"GET /get_product/21 HTTP/1.1" 301 0
+"GET /get_product/21/ HTTP/1.1" 200 542
+"GET /get_orders/ HTTP/1.1" 200 4192
+"GET /get_clients/ HTTP/1.1" 200 4651
+"GET /get_clients/ HTTP/1.1" 200 6139
+"GET /get_clients/ HTTP/1.1" 200 7635
+"GET /get_clients/ HTTP/1.1" 200 13584
+"GET /get_orders/ HTTP/1.1" 200 39941
+"GET /get_products/ HTTP/1.1" 200 21165

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары в заказе</title>
+</head>
+<body>
+    <h1>Товары из заказа #{{ order_id }}:</h1>
+    <table>
+        <tr>
+            <th>ID товара</th>
+            <th>название</th>
+            <th>цена</th>
+        </tr>
+        {% for product in order_products %}
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>${{ product.price }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<h2>Таблица всех заказов</h2>
+<table>
+    <tr>
+        <th>ID заказа</th>
+        <th>ID клиента</th>
+        <th>Итоговая сумма</th>
+    </tr>
+    {% for order in orders %}
+    <tr>
+        <td>{{ order.id }}</td>
+        <td>{{ order.client.id }}</td>
+        <td>{{ order.total_amount }}</td>
+    </tr>
+    {% endfor %}
+</table>
