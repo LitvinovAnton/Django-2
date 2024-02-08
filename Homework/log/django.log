@@ -1183,3 +1183,4 @@ code 505, message Invalid HTTP version (2.0)
 "PRI * HTTP/2.0" 505 -
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 5600
+Watching for file changes with StatReloader

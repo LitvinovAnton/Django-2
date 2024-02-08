@@ -102,11 +102,13 @@ def get_order(request, order_id):
             <th>ID заказа</th>
             <th>Клиент</th>
             <th>Полная стоимость</th>
+            <th>Дата заказа</th>
         </tr>
         <tr>
             <td>{order.id}</td>
             <td>{order.client.name}</td>
             <td>{order.total_amount}</td>
+            <td>{order.order_date}</td>
         </tr>
     </table>
     <h2>Товары в заказе</h2>
