@@ -21,8 +21,8 @@ http://89.23.115.214:8000/products_by_order/37/  - отдельно товары
 add_product_to_order(), remove_product_from_order(). Методы позволяют изменить через url: имя клиента, 
 изменить цену определенного товара, также можно добавить товар в имеющийся заказ или удалить товар из заказа. <br></pre>
 **Примеры Update запросов:** <br>
-http://89.23.115.214:8000/update_order/35/add_product/24/  - добавление товара <br>
-http://89.23.115.214:8000/update_order/35/delete_product/24/  - удаление товара <br>
+http://89.23.115.214:8000/update_order/37/add_product/24/  - добавление товара <br>
+http://89.23.115.214:8000/update_order/37/delete_product/24/  - удаление товара <br>
 http://89.23.115.214:8000/update_product/21/update_price/11111/  - обновление цены <br>
 http://89.23.115.214:8000/update_client/29/update_name/Lotos/  - обновление фио <br>
     <pre>Delete - в файле homework_app/views.py методы: delete_client(), delete_product(), delete_order(). <br>
