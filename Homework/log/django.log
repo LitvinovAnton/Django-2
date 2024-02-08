@@ -1148,3 +1148,4 @@ Watching for file changes with StatReloader
 "GET /get_clients/ HTTP/1.1" 200 13584
 "GET /get_orders/ HTTP/1.1" 200 39941
 "GET /get_products/ HTTP/1.1" 200 21165
+Watching for file changes with StatReloader
