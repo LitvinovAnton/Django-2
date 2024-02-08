@@ -1149,3 +1149,27 @@ Watching for file changes with StatReloader
 "GET /get_orders/ HTTP/1.1" 200 39941
 "GET /get_products/ HTTP/1.1" 200 21165
 Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 13584
+"GET /get_clients/ HTTP/1.1" 200 13584
+"GET /get_client/17/ HTTP/1.1" 200 406
+"GET /get_order/37/ HTTP/1.1" 200 1057
+"GET /get_clients/ HTTP/1.1" 200 13584
+Not Found: /update_order/35/add_product/24/
+"GET /update_order/35/add_product/24/ HTTP/1.1" 404 68
+"GET /update_product/21/update_price/11111/ HTTP/1.1" 200 131
+"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
+Not Found: /update_order/35/add_product/24/
+"GET /update_order/35/add_product/24/ HTTP/1.1" 404 68
+"GET /get_orders/ HTTP/1.1" 200 39941
+"GET /get_clients/ HTTP/1.1" 200 13584
+"GET /get_client/17/ HTTP/1.1" 200 406
+"GET /get_orders/ HTTP/1.1" 200 39941
+"GET /get_orders/ HTTP/1.1" 200 39941
+"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
+"GET /update_order/37/delete_product/24/ HTTP/1.1" 200 175
+"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
+"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
+"GET /update_order/37/delete_product/24/ HTTP/1.1" 200 175
+"GET /get_products/ HTTP/1.1" 200 21165
+"GET /get_orders/ HTTP/1.1" 200 39941
+"GET /get_clients/ HTTP/1.1" 200 13584
