@@ -899,288 +899,2089 @@ Watching for file changes with StatReloader
 /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:9000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
     response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
     host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
     raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:9000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
 Bad Request: /
-"GET / HTTP/1.1" 400 70241
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+"GET / HTTP/1.1" 400 71206
+Invalid HTTP_HOST header: '0.0.0.0:9000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
     response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
     host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
     raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:9000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
 Bad Request: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 400 70220
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /
-"GET / HTTP/1.1" 400 70241
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /about/
-"GET /about/ HTTP/1.1" 400 70308
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /
-"GET / HTTP/1.1" 400 70241
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /about/
-"GET /about/ HTTP/1.1" 400 70308
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /get_clients/
-"GET /get_clients/ HTTP/1.1" 400 70384
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /about/
-"GET /about/ HTTP/1.1" 400 64102
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /
-"GET / HTTP/1.1" 400 64035
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /
-"GET / HTTP/1.1" 400 64035
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /
-"GET / HTTP/1.1" 400 64035
-Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89.23.115.214:8000'. You may need to add '89.23.115.214' to ALLOWED_HOSTS.
-Bad Request: /about/
-"GET /about/ HTTP/1.1" 400 64102
-Watching for file changes with StatReloader
-2024-02-08 02:06:31 - homepage
+"GET /favicon.ico HTTP/1.1" 400 71179
+2024-02-08 02:27:07 - homepage
 "GET / HTTP/1.1" 200 135
-Not Found: /get_clients.
-"GET /get_clients. HTTP/1.1" 404 4980
-"GET /get_clients/ HTTP/1.1" 200 3333
-Watching for file changes with StatReloader
-"GET /get_clients/ HTTP/1.1" 200 3333
-2024-02-08 02:08:15 - homepage
-"GET / HTTP/1.1" 200 135
-2024-02-08 02:08:21 - about us page
-"GET /about/ HTTP/1.1" 200 157
-"GET /get_clients/ HTTP/1.1" 200 3333
-"GET /get_products/ HTTP/1.1" 200 2961
-"GET /get_orders/ HTTP/1.1" 200 1651
-Not Found: /product_by_order/35/
-"GET /product_by_order/35/ HTTP/1.1" 404 5004
-"GET /products_by_order/35/ HTTP/1.1" 200 625
-"GET /products_by_order/36/ HTTP/1.1" 200 615
-"GET /products_by_order/37/ HTTP/1.1" 200 986
-"GET /get_clients/ HTTP/1.1" 200 3333
-"GET /get_orders/ HTTP/1.1" 200 1651
-"GET /update_order/36/add_product/22/ HTTP/1.1" 200 181
-"GET /products_by_order/36/ HTTP/1.1" 200 615
-"GET /update_order/36/add_product/21/ HTTP/1.1" 200 181
-"GET /products_by_order/36/ HTTP/1.1" 200 747
-"GET /get_clients/ HTTP/1.1" 200 3333
-"GET /update_client/10/update_name/Peter/ HTTP/1.1" 200 125
-"GET /get_clients/ HTTP/1.1" 200 3333
-2024-02-08 02:13:42 - about us page
-"GET /about/ HTTP/1.1" 200 157
 Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 4977
-"GET /get_clients/ HTTP/1.1" 200 3333
-"GET /get_clients/ HTTP/1.1" 200 3333
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 4977
-"GET /get_orders/ HTTP/1.1" 200 1653
-"GET /products_by_order/35/ HTTP/1.1" 200 625
-"GET /products_by_order/37/ HTTP/1.1" 200 986
-"GET /update_order/35/add_product/24/ HTTP/1.1" 200 181
-"GET /get_orders/ HTTP/1.1" 200 1653
-"GET /update_order/35/delete_product/24/ HTTP/1.1" 200 175
-"GET /get_orders/ HTTP/1.1" 200 1653
-Not Found: /update_order/35/delete_product/24/
-"GET /update_order/35/delete_product/24/ HTTP/1.1" 404 61
-2024-02-08 02:19:21 - homepage
-"GET / HTTP/1.1" 200 135
-"GET /delete_order/35/ HTTP/1.1" 200 73
-"GET /get_orders/ HTTP/1.1" 200 1562
-Not Found: /get_client/
-"GET /get_client/ HTTP/1.1" 404 4977
-"GET /get_clients/ HTTP/1.1" 200 3333
-"GET /delete_client/30/ HTTP/1.1" 200 85
-"GET /get_clients/ HTTP/1.1" 200 3187
-2024-02-08 02:21:09 - about us page
-"GET /about/ HTTP/1.1" 200 157
-"GET /update_product/21/update_price/11111/ HTTP/1.1" 200 131
-"GET /get_products/ HTTP/1.1" 200 2960
-"GET /get_clients/ HTTP/1.1" 200 3187
-Not Found: /update_clienbt/29/update_name/Lotos/
-"GET /update_clienbt/29/update_name/Lotos/ HTTP/1.1" 404 5052
-"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
-"GET /get_clients/ HTTP/1.1" 200 3178
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 4977
-"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
-"GET /get_clients/ HTTP/1.1" 200 3178
-"GET /get_orders/ HTTP/1.1" 200 1471
-code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8a\x14\x99öË³¡å\x8dP¥¬³\x02\x15l\x84®Þ\x95³¤ÿ\x08àÖndîVÜq\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
-You're accessing the development server over HTTPS, but it only supports HTTP.
-Watching for file changes with StatReloader
-2024-02-08 02:42:58 - about us page
-"GET /about/ HTTP/1.1" 200 157
-"GET /get_clients/ HTTP/1.1" 200 3178
-"GET /get_client/29 HTTP/1.1" 301 0
-"GET /get_client/29/ HTTP/1.1" 200 401
-"GET /get_order/37 HTTP/1.1" 301 0
-"GET /get_order/37/ HTTP/1.1" 200 1057
-"GET /get_client/17 HTTP/1.1" 301 0
-"GET /get_client/17/ HTTP/1.1" 200 406
+"GET /favicon.ico HTTP/1.1" 404 5182
+"GET /get_product/24 HTTP/1.1" 301 0
+Internal Server Error: /get_product/24/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_product() got multiple values for argument 'product_id'
+"GET /get_product/24/ HTTP/1.1" 500 63605
+Internal Server Error: /get_product/24/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_product() got multiple values for argument 'product_id'
+"GET /get_product/24/ HTTP/1.1" 500 63605
+Internal Server Error: /get_product/21/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_product() got multiple values for argument 'product_id'
+"GET /get_product/21/ HTTP/1.1" 500 63605
 "GET /get_product/21 HTTP/1.1" 301 0
-"GET /get_product/21/ HTTP/1.1" 200 542
-"GET /get_orders/ HTTP/1.1" 200 4192
-"GET /get_clients/ HTTP/1.1" 200 4651
-"GET /get_clients/ HTTP/1.1" 200 6139
-"GET /get_clients/ HTTP/1.1" 200 7635
-"GET /get_clients/ HTTP/1.1" 200 13584
-"GET /get_orders/ HTTP/1.1" 200 39941
-"GET /get_products/ HTTP/1.1" 200 21165
+Internal Server Error: /get_product/21/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_product() got multiple values for argument 'product_id'
+"GET /get_product/21/ HTTP/1.1" 500 63605
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /get_clients/ HTTP/1.1" 200 13584
-"GET /get_clients/ HTTP/1.1" 200 13584
-"GET /get_client/17/ HTTP/1.1" 200 406
+"GET /get_product/21/ HTTP/1.1" 200 496
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/21/ HTTP/1.1" 200 529
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/21/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 95, in get_order
+    order = Order.objects.get(id=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /get_order/21/ HTTP/1.1" 500 76467
+Internal Server Error: /get_order/2/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 95, in get_order
+    order = Order.objects.get(id=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /get_order/2/ HTTP/1.1" 500 76453
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 96, in get_order
+    order_products = order.order_products.all()  # Получаем все заказы по данному заказу
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /get_order/36/ HTTP/1.1" 500 67632
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 96, in get_order
+    order_products = order.order_products.all()  # Получаем все заказы по данному заказу
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /get_order/36/ HTTP/1.1" 500 67632
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 96, in get_order
+    order_products = order.order_products.all()  # Получаем все заказы по данному заказу
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /get_order/36/ HTTP/1.1" 500 67632
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 96, in get_order
+    order_products = order.order_products.all()  # Получаем все заказы по данному заказу
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /get_order/36/ HTTP/1.1" 500 67632
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.product.name}</td>
+AttributeError: 'Order' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 67807
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.product.name}</td>
+AttributeError: 'Order' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 67807
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.product.name}</td>
+AttributeError: 'Order' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 67807
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.product.name}</td>
+AttributeError: 'Order' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 67807
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.product.name}</td>
+AttributeError: 'Order' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 67807
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 112, in get_order
+    <td>{order.quantity}</td>
+AttributeError: 'Order' object has no attribute 'quantity'
+"GET /get_order/36/ HTTP/1.1" 500 67783
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 112, in get_order
+    <td>{order.quantity}</td>
+AttributeError: 'Order' object has no attribute 'quantity'
+"GET /get_order/36/ HTTP/1.1" 500 67783
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.total_price}</td>
+AttributeError: 'Order' object has no attribute 'total_price'
+"GET /get_order/36/ HTTP/1.1" 500 67784
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 111, in get_order
+    <td>{order.total_price}</td>
+AttributeError: 'Order' object has no attribute 'total_price'
+"GET /get_order/36/ HTTP/1.1" 500 67784
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_order/36/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 125, in get_order
+    <td>{order_product.product.name}</td>
+AttributeError: 'Product' object has no attribute 'product'
+"GET /get_order/36/ HTTP/1.1" 500 69256
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_order/36/ HTTP/1.1" 200 654
+"GET /get_order/37/ HTTP/1.1" 200 925
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_order/37/ HTTP/1.1" 200 1033
+"GET /get_order/37/ HTTP/1.1" 200 1033
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_order/37/ HTTP/1.1" 200 1115
+"GET /get_order/37/ HTTP/1.1" 200 1115
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
 "GET /get_order/37/ HTTP/1.1" 200 1057
-"GET /get_clients/ HTTP/1.1" 200 13584
-Not Found: /update_order/35/add_product/24/
-"GET /update_order/35/add_product/24/ HTTP/1.1" 404 68
-"GET /update_product/21/update_price/11111/ HTTP/1.1" 200 131
-"GET /update_client/29/update_name/Lotos/ HTTP/1.1" 200 125
-Not Found: /update_order/35/add_product/24/
-"GET /update_order/35/add_product/24/ HTTP/1.1" 404 68
-"GET /get_orders/ HTTP/1.1" 200 39941
-"GET /get_clients/ HTTP/1.1" 200 13584
-"GET /get_client/17/ HTTP/1.1" 200 406
-"GET /get_orders/ HTTP/1.1" 200 39941
-"GET /get_orders/ HTTP/1.1" 200 39941
-"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
-"GET /update_order/37/delete_product/24/ HTTP/1.1" 200 175
-"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
-"GET /update_order/37/add_product/24/ HTTP/1.1" 200 181
-"GET /update_order/37/delete_product/24/ HTTP/1.1" 200 175
-"GET /get_products/ HTTP/1.1" 200 21165
-"GET /get_orders/ HTTP/1.1" 200 39941
-"GET /get_clients/ HTTP/1.1" 200 13584
-- Broken pipe from ('167.248.133.51', 53528)
-2024-02-08 03:19:02 - homepage
-"GET / HTTP/1.1" 200 135
-- Broken pipe from ('167.248.133.51', 57440)
-2024-02-08 03:19:06 - homepage
-"GET / HTTP/1.1" 200 135
-code 505, message Invalid HTTP version (2.0)
-"PRI * HTTP/2.0" 505 -
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 5600
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /get_client/16 HTTP/1.1" 301 0
+Internal Server Error: /get_client/16/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 64, in get_client
+    <td>{client.phone}</td>
+AttributeError: 'Client' object has no attribute 'phone'
+"GET /get_client/16/ HTTP/1.1" 500 67439
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_client/16/ HTTP/1.1" 200 358
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_client/16/ HTTP/1.1" 200 414
+"GET /get_client/17/ HTTP/1.1" 200 406
+Not Found: /favicon.ico
+"GET /get_client/29/ HTTP/1.1" 200 410
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+2024-02-08 03:47:23 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5601
+"GET /get_orders/ HTTP/1.1" 200 2170
+"GET /get_order/34 HTTP/1.1" 301 0
+Internal Server Error: /get_order/34/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 95, in get_order
+    order = Order.objects.get(id=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /get_order/34/ HTTP/1.1" 500 75939
+"GET /get_order/37/ HTTP/1.1" 200 1132
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /game_1/
+"GET /game_1/ HTTP/1.1" 404 5975
+2024-02-11 22:53:36 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /orders/10/
+"GET /orders/10/ HTTP/1.1" 404 5984
+Internal Server Error: /orders/10
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 263, in all_orders
+    return render(request, "my_first_app/all_posts.html", context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_first_app/all_posts.html
+"GET /orders/10 HTTP/1.1" 500 84050
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/10
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 263, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /orders/10 HTTP/1.1" 500 184178
+Internal Server Error: /orders/10
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 263, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /orders/10 HTTP/1.1" 500 184178
+"GET /orders/10 HTTP/1.1" 200 171
+"GET /orders/10 HTTP/1.1" 200 171
+"GET /orders/12 HTTP/1.1" 200 171
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/12 HTTP/1.1" 200 171
+"GET /orders/12 HTTP/1.1" 200 171
+"GET /orders/11 HTTP/1.1" 200 171
+"GET /orders/15 HTTP/1.1" 200 217
+"GET /show_order/35 HTTP/1.1" 200 175
+"GET /show_order/35 HTTP/1.1" 200 175
+"GET /orders/15 HTTP/1.1" 200 216
+"GET /show_order/35 HTTP/1.1" 200 175
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/15 HTTP/1.1" 200 244
+"GET /orders/16 HTTP/1.1" 200 248
+"GET /show_order/36 HTTP/1.1" 200 173
+"GET /show_order/36 HTTP/1.1" 200 222
+"GET /show_order/36 HTTP/1.1" 200 198
+"GET /show_order/36 HTTP/1.1" 200 199
+"GET /show_order/36 HTTP/1.1" 200 199
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /show_order/36
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 270, in show_order
+    order_products = Order.products.objects.get(order=order)
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'objects'
+"GET /show_order/36 HTTP/1.1" 500 67580
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /show_order/36 HTTP/1.1" 200 482
+Internal Server Error: /show_order/34
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 269, in show_order
+    order = Order.objects.get(pk=order_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 647, in get
+    raise self.model.DoesNotExist(
+homework_app.models.Order.DoesNotExist: Order matching query does not exist.
+"GET /show_order/34 HTTP/1.1" 500 76347
+"GET /show_order/36 HTTP/1.1" 200 482
+"GET /show_order/36 HTTP/1.1" 200 482
+"GET /orders/17 HTTP/1.1" 200 249
+"GET /show_order/37 HTTP/1.1" 200 855
+Watching for file changes with StatReloader
+"GET /orders/14 HTTP/1.1" 200 249
+"GET /show_order/55 HTTP/1.1" 200 869
+Watching for file changes with StatReloader
+"GET /orders/14 HTTP/1.1" 200 897
+"GET /show_order/5 HTTP/1.1" 200 747
+"GET /show_order/26 HTTP/1.1" 200 739
+"GET /show_order/47 HTTP/1.1" 200 610
+"GET /show_order/68 HTTP/1.1" 200 621
+"GET /orders/14 HTTP/1.1" 200 897
+"GET /show_order/5 HTTP/1.1" 200 747
+"GET /show_order/5 HTTP/1.1" 200 748
+"GET /show_order/299 HTTP/1.1" 200 494
+"GET /orders/14 HTTP/1.1" 200 957
+"GET /orders/14 HTTP/1.1" 200 968
+"GET /orders/14 HTTP/1.1" 200 961
+"GET /orders/14 HTTP/1.1" 200 965
+"GET /orders/14 HTTP/1.1" 200 1055
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/14 HTTP/1.1" 200 1055
+"GET /show_order/110 HTTP/1.1" 200 637
+"GET /show_order/236 HTTP/1.1" 200 490
+"GET /show_order/194 HTTP/1.1" 200 490
+"GET /show_order/68 HTTP/1.1" 200 622
+"GET /show_order/5 HTTP/1.1" 200 748
+"GET /show_order/173 HTTP/1.1" 200 608
+Watching for file changes with StatReloader
+"GET /show_order/173 HTTP/1.1" 200 1245
+"GET /show_order/5 HTTP/1.1" 200 1113
+"GET /show_order/173 HTTP/1.1" 200 1245
+"GET /show_order/299 HTTP/1.1" 200 996
+"GET /show_order/278 HTTP/1.1" 200 753
+"GET /show_order/5 HTTP/1.1" 200 1113
+"GET /show_order/68 HTTP/1.1" 200 1374
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 295, in order_list
+    orders_7_days = Order.objects.filter(client=client, order_date__gte=datetime.now() - datetime.timedelta(days=7)).order_by('order_date')
+AttributeError: module 'datetime' has no attribute 'now'
+"GET /order_list/5 HTTP/1.1" 500 67806
+"GET /show_order/47 HTTP/1.1" 200 1356
+"GET /show_order/5 HTTP/1.1" 200 1113
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 299, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 299, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 299, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+Not Found: /order_list/5/
+"GET /order_list/5/ HTTP/1.1" 404 6191
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /order_list/5/
+"GET /order_list/5/ HTTP/1.1" 404 6191
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 300, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+Internal Server Error: /order_list/5
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5 HTTP/1.1" 500 86084
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_list/5 HTTP/1.1" 301 0
+Internal Server Error: /order_list/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5/ HTTP/1.1" 500 86096
+"GET /show_order/36 HTTP/1.1" 301 0
+"GET /show_order/36/ HTTP/1.1" 200 1105
+Watching for file changes with StatReloader
+"GET /orders/15 HTTP/1.1" 301 0
+"GET /orders/15/ HTTP/1.1" 200 1313
+"GET /show_order/207/ HTTP/1.1" 200 1614
+Internal Server Error: /order_list/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /order_list/5/ HTTP/1.1" 500 86096
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /order_list/5/
+"GET /order_list/5/ HTTP/1.1" 404 6193
+Not Found: /order_list/5/
+"GET /order_list/5/ HTTP/1.1" 404 6193
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    return render(request, 'order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_list.html
+"GET /orderlist/5/ HTTP/1.1" 500 86084
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1356
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = order.products.all()
+NameError: name 'order' is not defined
+"GET /orderlist/5/ HTTP/1.1" 500 68148
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = order.products.all()
+NameError: name 'order' is not defined
+"GET /orderlist/5/ HTTP/1.1" 500 68148
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = order.products.all()
+NameError: name 'order' is not defined
+"GET /orderlist/5/ HTTP/1.1" 500 68148
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = order.products.all()
+NameError: name 'order' is not defined
+"GET /orderlist/5/ HTTP/1.1" 500 68148
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = orders.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 68292
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order_products = orders.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 68292
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order = Order.objects.get(order=orders)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /orderlist/5/ HTTP/1.1" 500 124830
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order = Order.objects.get(order=orders)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /orderlist/5/ HTTP/1.1" 500 124830
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+    order = Order.objects.get(order=orders)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /orderlist/5/ HTTP/1.1" 500 124830
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 298, in order_list
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1484, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1296, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1761, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order' into field. Choices are: client, client_id, id, order_date, products, total_amount
+"GET /orderlist/5/ HTTP/1.1" 500 121900
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 297, in order_list
+    order_products = order.products.all()
+NameError: name 'order' is not defined
+"GET /orderlist/5/ HTTP/1.1" 500 68148
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1284
+"GET /orderlist/5/ HTTP/1.1" 200 1286
+"GET /orderlist/5/ HTTP/1.1" 200 1286
+"GET /orderlist/5/ HTTP/1.1" 200 1286
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1348
+"GET /orderlist/5/ HTTP/1.1" 200 1348
+"GET /orderlist/5/ HTTP/1.1" 200 1356
+"GET /orderlist/5/ HTTP/1.1" 200 1356
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders_7_days.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69622
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders_7_days.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69622
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69608
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69608
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders.products.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69608
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 301, in order_list
+    orders_7_days_products = orders.all()
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /orderlist/5/ HTTP/1.1" 500 69590
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 1255
+"GET /orderlist/5/ HTTP/1.1" 200 1255
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 314, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlists/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: ordered_products_timeframe() missing 1 required positional argument: 'timeframe'
+"GET /orderlists/5/ HTTP/1.1" 500 63509
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 315, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 315, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 315, in order_list
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 315, in <genexpr>
+    all_products = list(chain.from_iterable(order.order_products.all() for order in orders))
+AttributeError: 'Order' object has no attribute 'order_products'
+"GET /orderlist/5/ HTTP/1.1" 500 72377
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /game_1/
+"GET /game_1/ HTTP/1.1" 404 6175
+"GET /show_order/36/ HTTP/1.1" 200 1105
+Not Found: /order_list/55
+"GET /order_list/55 HTTP/1.1" 404 6193
+Not Found: /favicon.ico
+Not Found: /order_list/5/
+"GET /order_list/5/ HTTP/1.1" 404 6193
+"GET /orderlist/5/ HTTP/1.1" 200 1255
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/5/ HTTP/1.1" 200 9961
+"GET /orderlist/5/ HTTP/1.1" 200 11190
+"GET /orderlist/5/ HTTP/1.1" 200 12984
+"GET /orderlist/5/ HTTP/1.1" 200 29590
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 318, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 694, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 756, in args_check
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: join requires 2 arguments, 1 provided
+"GET /orderlist/5/ HTTP/1.1" 500 224243
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 318, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 694, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 756, in args_check
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: join requires 2 arguments, 1 provided
+"GET /orderlist/5/ HTTP/1.1" 500 224243
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 318, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 694, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 756, in args_check
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: join requires 2 arguments, 1 provided
+"GET /orderlist/5/ HTTP/1.1" 500 224243
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 318, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 481, in parse
+    raise self.error(token, e)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 694, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 756, in args_check
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: join requires 2 arguments, 1 provided
+"GET /orderlist/5/ HTTP/1.1" 500 224243
+"GET /orderlist/5/ HTTP/1.1" 200 29196
+"GET /orderlist/5/ HTTP/1.1" 200 29181
+"GET /orderlist/7/ HTTP/1.1" 200 33219
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orderlist/7/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/7/ HTTP/1.1" 500 205216
+Internal Server Error: /orderlist/7/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/7/ HTTP/1.1" 500 205216
+Internal Server Error: /orderlist/7/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/7/ HTTP/1.1" 500 206123
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/5/ HTTP/1.1" 500 196272
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/5/ HTTP/1.1" 500 196353
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/5/ HTTP/1.1" 500 196353
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/5/ HTTP/1.1" 500 196353
+Internal Server Error: /orderlist/5/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 337, in order_list
+    return render(request, 'homework_app/order_list.html', {
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /orderlist/5/ HTTP/1.1" 500 196353
+"GET /orderlist/5/ HTTP/1.1" 200 41936
+"GET /orderlist/7/ HTTP/1.1" 200 47978
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 40528
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+"GET /orderlist/7/ HTTP/1.1" 200 49706
+"GET /orderlist/7/ HTTP/1.1" 200 49706
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+"GET /orderlist/7/ HTTP/1.1" 200 40562
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 48012
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 41370
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 41370
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orderlist/7/ HTTP/1.1" 200 50433
+"GET /orderlist/7/ HTTP/1.1" 200 50948
+"GET /orderlist/7/ HTTP/1.1" 200 52390
+"GET /orderlist/7/ HTTP/1.1" 200 51883
+"GET /orderlist/7/ HTTP/1.1" 200 51883
+"GET /orderlist/7/ HTTP/1.1" 200 49308
+"GET /orderlist/7/ HTTP/1.1" 200 60662
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_list/7/ HTTP/1.1" 200 60662
+"GET /order_list/7/ HTTP/1.1" 200 60662
+"GET /get_orders/ HTTP/1.1" 200 1867009
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /order_list/5/ HTTP/1.1" 200 53350
+"GET /order_list/7/ HTTP/1.1" 200 60662
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_list/7/ HTTP/1.1" 200 9743
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /order_list/7 HTTP/1.1" 301 0
+"GET /order_list/7/ HTTP/1.1" 200 9743
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /get_orders/ HTTP/1.1" 200 1867009
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+Internal Server Error: /orders/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/5/ HTTP/1.1" 500 139429
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /orders/7 HTTP/1.1" 301 0
+Internal Server Error: /orders/7/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
+    return render(request, "homework_app/orders_client.html", context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /orders/7/ HTTP/1.1" 500 141432
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/7/ HTTP/1.1" 200 1233
+"GET /show_order/90/ HTTP/1.1" 200 998
+"GET /show_order/93/ HTTP/1.1" 200 1480
+"GET /show_order/103/ HTTP/1.1" 200 1116
+"GET /show_order/91/ HTTP/1.1" 200 1264
+"GET /show_order/107/ HTTP/1.1" 200 1489
+"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /show_order/92/ HTTP/1.1" 200 975
+"GET /show_order/90/ HTTP/1.1" 200 998
+"GET /orders/7/ HTTP/1.1" 200 1233
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6187
+"GET /show_order/95/ HTTP/1.1" 200 1377
+"GET /show_order/90/ HTTP/1.1" 200 998
+"GET /show_order/107/ HTTP/1.1" 200 1489
+"GET /show_order/96/ HTTP/1.1" 200 1484
+"GET /orders/7/ HTTP/1.1" 200 1233
+"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /order_list/7 HTTP/1.1" 301 0
+"GET /order_list/7/ HTTP/1.1" 200 9743
+2024-02-12 03:40:56 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-12 03:42:09 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /order_list/7/ HTTP/1.1" 200 9743
+"GET /show_order/91/ HTTP/1.1" 200 1264
+"GET /orders/7/ HTTP/1.1" 200 1233
+"GET /order_list/7/ HTTP/1.1" 200 11185
+"GET /order_list/7/ HTTP/1.1" 200 11185
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6187
+/root/django_project/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_list/7/ HTTP/1.1" 200 11275
+"GET /order_list/7/ HTTP/1.1" 200 11275
+"GET /order_list/7/ HTTP/1.1" 200 11275
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÿv£\x8b·\x13É\x1aä©a¸ÒïÏ{²\x14vXª)Ú×9ü\x16-HJL\x91\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-12 03:56:12 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)\x92v\x96ÙD\x99\x9c´Aà«ô~<Ö9¨ÍùZZc_'éÒ\xadèãT°\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /order_list/7/ HTTP/1.1" 200 11275
+Watching for file changes with StatReloader
+"GET /orders/7/ HTTP/1.1" 200 1233
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6187
+"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /order_list/7/ HTTP/1.1" 200 11275

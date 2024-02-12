@@ -1,0 +1,13 @@
+<h2>Клиент: {{ client_name }}. Товары в заказах по периодам:</h2>
+<div style="display:flex;">
+  {% for key, product_sets in orders_with_products.items %}
+    <div style="margin-right: 20px;">
+      <h3>{{ key }}</h3>
+      <ul>
+        {% for product_set in product_sets %}
+          <li><strong>Name</strong> - {{ product_set.0 }}, <strong>ID товара </strong> - {{ product_set.1 }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

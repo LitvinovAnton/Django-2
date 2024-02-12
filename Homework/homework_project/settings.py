@@ -57,7 +57,10 @@ ROOT_URLCONF = 'homework_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',
+            BASE_DIR / "homework_app/templates",
+            BASE_DIR / "homework_project/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

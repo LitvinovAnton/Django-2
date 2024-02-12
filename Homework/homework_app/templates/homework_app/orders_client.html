@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Заказы клиента{% endblock %}
+
+{% block content %}
+<p>Заказы клиента - {{ client_name }}:</p>
+ID:<br>
+    {% for order in orders %}
+        &nbsp;<a href="{% url 'order' order.id %}">{{ order.id }}</a><br>
+    {% endfor %}
+{% endblock %}

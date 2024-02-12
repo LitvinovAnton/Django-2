@@ -9,7 +9,6 @@ class Client(models.Model):
     registration_date = models.DateField(auto_now_add=True)
 
 
-
 class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
@@ -22,4 +21,4 @@ class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
     total_amount = models.DecimalField(max_digits=10, decimal_places=2)
-    order_date = models.DateField(auto_now_add=True)
+    order_date = models.DateField(auto_now_add=False)

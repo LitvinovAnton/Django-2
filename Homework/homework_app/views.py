@@ -1,6 +1,7 @@
 import datetime
 import logging
 import random
+from collections import defaultdict
 
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse, JsonResponse, Http404
@@ -252,3 +253,56 @@ def delete_order(request, order_id):
         return HttpResponse("Заказ с id {} отсутствует в базе данных".format(order_id))
     except Exception as e:
         return HttpResponse("ОШИБКАСЪ: {}".format(e))
+
+
+# =====================================
+def all_orders(request, client_id):
+    client = Client.objects.get(pk=client_id)
+    orders = Order.objects.filter(client=client)
+    context = {
+        "orders": orders,
+        "client_name": client.name}
+    return render(request, "homework_app/orders_client.html", context)
+
+
+def show_order(request, order_id):
+    order = Order.objects.get(pk=order_id)
+    order_products = order.products.all()
+    context = {
+        "order": order,
+        "order_products": order_products}
+    return render(request, "homework_app/order_info.html", context)
+
+
+def order_list(request, client_id):
+    # принимаем 2 параметра, проверяем, что клиент является объектом Client c id таким-то, иначе 404
+    client = get_object_or_404(Client, pk=client_id)
+
+    # инициализируем заказы, отфильтрованные по периодам
+    orders = {
+        '7_days': Order.objects.filter(client=client,
+                                       order_date__gte=datetime.datetime.now() - datetime.timedelta(days=7)).order_by(
+            'order_date'),
+        '30_days': Order.objects.filter(client=client,
+                                        order_date__gte=datetime.datetime.now() - datetime.timedelta(days=30)).order_by(
+            'order_date'),
+        '365_days': Order.objects.filter(client=client, order_date__gte=datetime.datetime.now() - datetime.timedelta(
+            days=365)).order_by('order_date')
+    }
+    # инициализируем пустой словарь, где будут лежать уникальные товары для каждого заказа
+    orders_with_products = {}
+    #  проходимся циклом по элементам в словаре заказов orders
+    for key, value in orders.items():
+        unique_products = set()  # инициализируем  множество для хранения уникальных товаров
+        # тут перебираем каждый заказ и товары в заказе и добавляем их в множество
+        for order in value:
+            for product in order.products.all():
+                unique_products.add((product.name, product.id))  # добавляем кортеж из имени и id товара
+        unique_products_list = list(unique_products)  # конвертируем в список
+        unique_products_list.sort(key=lambda x: x[1])  # Сортировка товаров по ID по возрастанию
+        orders_with_products[key] = unique_products_list  # присваиваем список товаров своему ключу
+        # визуализируем заготовленный шаблон, передавая в него заказы с товарами
+    return render(request, 'homework_app/order_list.html', {
+        'client_name': client.name,
+        'orders_with_products': orders_with_products
+    })

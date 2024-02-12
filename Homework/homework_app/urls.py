@@ -22,5 +22,8 @@ urlpatterns = [
     path('update_order/<int:order_id>/add_product/<int:product_id>/',
          views.add_product_to_order, name='добавление товара к заказу'),
     path('update_client/<int:client_id>/update_name/<str:update_name>/',
-         views.update_name_client, name='изменение имени клиента')
+         views.update_name_client, name='изменение имени клиента'),
+    path('orders/<int:client_id>/', views.all_orders, name='all_orders'),
+    path('show_order/<int:order_id>/', views.show_order, name='order'),
+    path('order_list/<int:client_id>/', views.order_list, name='order_list'),
 ]
