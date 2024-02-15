@@ -2619,383 +2619,1651 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71523
+Not Found: /game_1/
+"GET /game_1/ HTTP/1.1" 404 6176
 "GET /get_clients/ HTTP/1.1" 200 150487
-"GET /order_list/7 HTTP/1.1" 301 0
+Not Found: /order_list/
+"GET /order_list/ HTTP/1.1" 404 6188
+"GET /order_list/7/ HTTP/1.1" 200 125
+"GET /order_list/7/ HTTP/1.1" 200 125
+"GET /order_list/7/ HTTP/1.1" 200 125
+"GET /order_list/5/ HTTP/1.1" 200 125
+"GET /order_list/7/ HTTP/1.1" 200 125
 "GET /order_list/7/ HTTP/1.1" 200 9743
-"GET /get_clients/ HTTP/1.1" 200 150487
-"GET /get_orders/ HTTP/1.1" 200 1867009
-code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
-"    c                           " 400 -
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-Internal Server Error: /orders/5/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/5/ HTTP/1.1" 500 139429
-"GET /get_clients/ HTTP/1.1" 200 150487
-"GET /orders/7 HTTP/1.1" 301 0
-Internal Server Error: /orders/7/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 171, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 163, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 961, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-  File "/usr/local/lib/python3.10/dist-packages/django/template/engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/root/django_project/Homework/homework_app/views.py", line 265, in all_orders
-    return render(request, "homework_app/orders_client.html", context)
-  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /orders/7/ HTTP/1.1" 500 141432
-/root/django_project/Homework/homework_project/settings.py changed, reloading.
+"GET /order_list/7/ HTTP/1.1" 200 11185
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /show_order/90/ HTTP/1.1" 200 998
-"GET /show_order/93/ HTTP/1.1" 200 1480
-"GET /show_order/103/ HTTP/1.1" 200 1116
-"GET /show_order/91/ HTTP/1.1" 200 1264
-"GET /show_order/107/ HTTP/1.1" 200 1489
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /show_order/92/ HTTP/1.1" 200 975
-"GET /show_order/90/ HTTP/1.1" 200 998
-"GET /orders/7/ HTTP/1.1" 200 1233
+"GET /order_list/7/ HTTP/1.1" 200 11216
+"GET /order_list/7/ HTTP/1.1" 200 11226
+"GET /order_list/7/ HTTP/1.1" 200 11226
+"GET /order_list/7/ HTTP/1.1" 200 11220
+"GET /order_list/7/ HTTP/1.1" 200 11273
+"GET /order_list/7/ HTTP/1.1" 200 11274
+"GET /order_list/7/ HTTP/1.1" 200 11275
+"GET /order_list/6/ HTTP/1.1" 200 6794
+"GET /order_list/1/ HTTP/1.1" 200 9928
+"GET /order_list/9/ HTTP/1.1" 200 7738
+"GET /order_list/100/ HTTP/1.1" 200 8594
+"GET /order_list/67/ HTTP/1.1" 200 9854
+"GET /order_list/7/ HTTP/1.1" 200 11275
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71523
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /add_post/
+"GET /add_post/ HTTP/1.1" 404 6386
 Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6187
-"GET /show_order/95/ HTTP/1.1" 200 1377
-"GET /show_order/90/ HTTP/1.1" 200 998
-"GET /show_order/107/ HTTP/1.1" 200 1489
-"GET /show_order/96/ HTTP/1.1" 200 1484
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /order_list/7 HTTP/1.1" 301 0
-"GET /order_list/7/ HTTP/1.1" 200 9743
-2024-02-12 03:40:56 - about us page
-"GET /about/ HTTP/1.1" 200 157
-2024-02-12 03:42:09 - about us page
-"GET /about/ HTTP/1.1" 200 157
+"GET /get_orders/ HTTP/1.1" 200 1867009
 "GET /get_clients/ HTTP/1.1" 200 150487
-"GET /order_list/7/ HTTP/1.1" 200 9743
-"GET /show_order/91/ HTTP/1.1" 200 1264
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /order_list/7/ HTTP/1.1" 200 11185
-"GET /order_list/7/ HTTP/1.1" 200 11185
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/form.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /edit_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 325, in edit_product
+    return render(request, 'edit_product.html', {'form': form})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_product.html
+"GET /edit_product/1/ HTTP/1.1" 500 84377
+"GET /edit_product/1 HTTP/1.1" 301 0
+Internal Server Error: /edit_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 325, in edit_product
+    return render(request, 'edit_product.html', {'form': form})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_product.html
+"GET /edit_product/1/ HTTP/1.1" 500 84377
+Watching for file changes with StatReloader
+Internal Server Error: /edit_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 325, in edit_product
+    return render(request, 'edit_product.html', {'form': form})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_product.html
+"GET /edit_product/1/ HTTP/1.1" 500 84377
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /edit_product/1/ HTTP/1.1" 200 1159
+"POST /edit_product/1/ HTTP/1.1" 200 1161
+"POST /edit_product/1/ HTTP/1.1" 200 1030
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/1/ HTTP/1.1" 200 1060
+"POST /edit_product/1/ HTTP/1.1" 200 1060
+"POST /edit_product/1/ HTTP/1.1" 200 1089
+"POST /edit_product/1/ HTTP/1.1" 200 1089
+"POST /edit_product/1/ HTTP/1.1" 200 1099
+"POST /edit_product/1/ HTTP/1.1" 200 1100
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /edit_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: homework_app_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 317, in edit_product
+    product = get_object_or_404(Product, pk=product_id)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 643, in get
+    num = len(clone)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: homework_app_product.photo
+"POST /edit_product/1/ HTTP/1.1" 500 141667
+Watching for file changes with StatReloader
+"POST /edit_product/1/ HTTP/1.1" 200 1236
+"POST /edit_product/1/ HTTP/1.1" 200 1236
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/1/ HTTP/1.1" 200 1236
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/1/ HTTP/1.1" 200 1236
+"POST /edit_product/1/ HTTP/1.1" 200 1266
 Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6187
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/1/ HTTP/1.1" 200 1266
+Not Found: /favicon.ico
+"GET /get_product/1 HTTP/1.1" 301 0
+"GET /get_product/1/ HTTP/1.1" 200 422
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Not Found: /favicon.ico
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Watching for file changes with StatReloader
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84192
+Internal Server Error: /get_product/1/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 97, in get_product
+    return render(request, 'homework_app/get_product.html', {'product': product})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: get_product.html
+"GET /get_product/1/ HTTP/1.1" 500 84218
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 532
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 485
+Not Found: /media/homework_app/product_photos/tumba.jpg
+"GET /media/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6488
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 488
+Not Found: /Homework/homework_app/product_photos/tumba.jpg
+"GET /Homework/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6497
+Not Found: /favicon.ico
+"GET /get_product/1/ HTTP/1.1" 200 488
+Not Found: /Homework/homework_app/product_photos/tumba.jpg
+"GET /Homework/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6497
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 479
+Not Found: /homework_app/product_photos/tumba.jpg
+"GET /homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6470
+"GET /get_product/1/ HTTP/1.1" 200 479
+Not Found: /homework_app/product_photos/tumba.jpg
+"GET /homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6470
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 534
+"GET /get_product/1/ HTTP/1.1" 200 534
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 534
+"GET /get_product/1/ HTTP/1.1" 200 534
+"GET /get_product/1/ HTTP/1.1" 200 534
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 533
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 533
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 477
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /edit_product/2 HTTP/1.1" 301 0
+"GET /edit_product/2/ HTTP/1.1" 200 1359
+"POST /edit_product/2/ HTTP/1.1" 200 1360
+"GET /get_product/2 HTTP/1.1" 301 0
+"GET /get_product/2/ HTTP/1.1" 200 624
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/2/ HTTP/1.1" 200 624
+"GET /get_product/2/ HTTP/1.1" 200 624
+"GET /get_product/2/ HTTP/1.1" 200 624
+"GET /get_product/2/ HTTP/1.1" 200 596
+"GET /get_product/1/ HTTP/1.1" 200 505
+"GET /get_product/1/ HTTP/1.1" 200 449
+Not Found: /get_product/1/homework_app/product_photos/tumba.jpg
+"GET /get_product/1/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6512
+"GET /get_product/1/ HTTP/1.1" 200 533
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_product/1/ HTTP/1.1" 200 532
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/tumba.jpg HTTP/1.1" 200 314275
+Not Found: /favicon.ico
+"GET /get_product/1/ HTTP/1.1" 200 577
+Not Found: /all_products/1/
+"GET /all_products/1/ HTTP/1.1" 404 6625
+Not Found: /all_products/
+"GET /all_products/ HTTP/1.1" 404 6619
+Not Found: /all_products/
+"GET /all_products/ HTTP/1.1" 404 6619
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+Not Found: /favicon.ico
+"GET /get_products/ HTTP/1.1" 200 36892
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159922
+"GET /get_products/ HTTP/1.1" 200 29367
+"GET /get_products/ HTTP/1.1" 200 36967
+Not Found: /get_products/homework_app/product_photos/tumba.jpg
+Not Found: /get_products/homework_app/product_photos/ruchka.jpg
+"GET /get_products/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6730
+"GET /get_products/homework_app/product_photos/ruchka.jpg HTTP/1.1" 404 6733
+"GET /get_products/ HTTP/1.1" 200 36967
+Not Found: /get_products/homework_app/product_photos/tumba.jpg
+Not Found: /get_products/homework_app/product_photos/ruchka.jpg
+"GET /get_products/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6730
+"GET /get_products/homework_app/product_photos/ruchka.jpg HTTP/1.1" 404 6733
+"GET /get_products/ HTTP/1.1" 200 34167
+Not Found: /get_products/homework_app/product_photos/tumba.jpg
+Not Found: /get_products/homework_app/product_photos/ruchka.jpg
+"GET /get_products/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6730
+"GET /get_products/homework_app/product_photos/ruchka.jpg HTTP/1.1" 404 6733
+"GET /get_products/ HTTP/1.1" 200 36967
+Not Found: /get_products/homework_app/product_photos/ruchka.jpg
+Not Found: /get_products/homework_app/product_photos/tumba.jpg
+"GET /get_products/homework_app/product_photos/ruchka.jpg HTTP/1.1" 404 6733
+"GET /get_products/homework_app/product_photos/tumba.jpg HTTP/1.1" 404 6730
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159664
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159664
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159664
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159664
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 160114
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /get_product/2/ HTTP/1.1" 200 668
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+Not Found: /favicon.ico
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+Not Found: /favicon.ico
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /edit_product/3 HTTP/1.1" 301 0
+"GET /edit_product/3/ HTTP/1.1" 200 1336
+Not Found: /favicon.ico
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1424
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/form.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"POST /edit_product/3/ HTTP/1.1" 200 1336
+"GET /edit_product/4 HTTP/1.1" 301 0
+"GET /edit_product/4/ HTTP/1.1" 200 1376
+"POST /edit_product/4/ HTTP/1.1" 200 1376
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/4/ HTTP/1.1" 200 1376
+"POST /edit_product/4/ HTTP/1.1" 200 1376
+"POST /edit_product/4/ HTTP/1.1" 200 1376
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /edit_product/5/ HTTP/1.1" 200 1332
+"POST /edit_product/5/ HTTP/1.1" 200 1332
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/5/ HTTP/1.1" 200 1620
+"POST /edit_product/5/ HTTP/1.1" 200 1628
+"POST /edit_product/5/ HTTP/1.1" 200 1339
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /edit_product/5/ HTTP/1.1" 200 1339
+"POST /edit_product/5/ HTTP/1.1" 200 1331
+"GET /edit_product/6/ HTTP/1.1" 200 1304
+"POST /edit_product/6/ HTTP/1.1" 200 1308
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /edit_product/6/ HTTP/1.1" 200 1308
+"POST /edit_product/6/ HTTP/1.1" 200 1308
+"GET /edit_product/7/ HTTP/1.1" 200 1372
+"POST /edit_product/7/ HTTP/1.1" 200 1373
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/7/ HTTP/1.1" 200 1373
+"GET /edit_product/8/ HTTP/1.1" 200 1400
+"POST /edit_product/8/ HTTP/1.1" 200 1401
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/8/ HTTP/1.1" 200 1401
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /edit_product/10/ HTTP/1.1" 200 1413
+"POST /edit_product/10/ HTTP/1.1" 200 1414
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/10/ HTTP/1.1" 200 1414
+"GET /edit_product/8/ HTTP/1.1" 200 1401
+"POST /edit_product/8/ HTTP/1.1" 200 1401
+"GET /get_products HTTP/1.1" 301 0
+Internal Server Error: /get_products/
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/valery/PycharmProjects/django_homeworks/Homework/homework_app/views.py", line 158, in get_all_products
+    return render(request, 'homework_app/all_products.html', {'products': products})
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 66, in url
+    self._require_file()
+  File "/home/valery/PycharmProjects/django_homeworks/.venv/lib/python3.10/site-packages/django/db/models/fields/files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'photo' attribute has no file associated with it.
+"GET /get_products/ HTTP/1.1" 500 159656
+"GET /get_products/ HTTP/1.1" 200 30962
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/tumba.jpg HTTP/1.1" 200 314275
+"GET /get_products/ HTTP/1.1" 200 30962
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/tumba.jpg HTTP/1.1" 304 0
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /home/valery/PycharmProjects/django_homeworks/Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /get_products/ HTTP/1.1" 200 30962
+/home/valery/PycharmProjects/django_homeworks/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.1" 200 42916
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /get_products/ HTTP/1.1" 200 42916
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+2024-02-15 22:31:51 - homepage
+"GET / HTTP/1.1" 200 135
+"GET /get_products/ HTTP/1.1" 200 42916
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /edit_product/1 HTTP/1.1" 301 0
+"GET /edit_product/1/ HTTP/1.1" 200 1637
+"POST /edit_product/1/ HTTP/1.1" 200 1496
+"GET /get_products/ HTTP/1.1" 200 42772
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /edit_product/2/ HTTP/1.1" 200 1603
+"POST /edit_product/2/ HTTP/1.1" 200 1521
+"GET /get_products/ HTTP/1.1" 200 42683
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /get_product/1 HTTP/1.1" 301 0
+"GET /get_product/1/ HTTP/1.1" 200 521
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /edit_product/3/ HTTP/1.1" 200 1580
+"POST /edit_product/3/ HTTP/1.1" 200 1490
+"GET /get_products/ HTTP/1.1" 200 42593
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /edit_product/4/ HTTP/1.1" 200 1620
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/4/ HTTP/1.1" 200 1485
+"GET /get_products/ HTTP/1.1" 200 42454
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /edit_product/5/ HTTP/1.1" 200 1576
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/5/ HTTP/1.1" 200 1485
+"GET /get_products/ HTTP/1.1" 200 42356
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /edit_product/6/ HTTP/1.1" 200 1548
+"POST /edit_product/6/ HTTP/1.1" 200 1514
+"GET /get_products/ HTTP/1.1" 200 42328
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+"GET /edit_product/7/ HTTP/1.1" 200 1616
+"POST /edit_product/7/ HTTP/1.1" 200 1617
+"GET /get_products/ HTTP/1.1" 200 42329
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"POST /edit_product/7/ HTTP/1.1" 200 1625
+"POST /edit_product/7/ HTTP/1.1" 200 1617
+"GET /get_products/ HTTP/1.1" 200 42329
+Not Found: /Homework/homework_app/product_photos/default_image.jpg
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 404 6930
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"POST /edit_product/7/ HTTP/1.1" 200 1617
+"GET /get_products/ HTTP/1.1" 200 42329
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"POST /edit_product/7/ HTTP/1.1" 200 1617
+"GET /get_products/ HTTP/1.1" 200 42324
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+"GET /edit_product/8/ HTTP/1.1" 200 1644
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/8/ HTTP/1.1" 200 1472
+"GET /get_products/ HTTP/1.1" 200 42152
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /edit_product/8/ HTTP/1.1" 200 1467
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /get_products/ HTTP/1.1" 200 42152
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /edit_product/
+"GET /edit_product/ HTTP/1.1" 404 6573
+"GET /edit_product/9 HTTP/1.1" 301 0
+"GET /edit_product/9/ HTTP/1.1" 200 1638
+"POST /edit_product/9/ HTTP/1.1" 200 1487
+"POST /edit_product/9/ HTTP/1.1" 200 1489
+"GET /get_products/ HTTP/1.1" 200 42007
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+"GET /edit_product/10/ HTTP/1.1" 200 1657
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/10/ HTTP/1.1" 200 1496
+"GET /get_products/ HTTP/1.1" 200 41850
+"GET /edit_product/11/ HTTP/1.1" 200 1562
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/11/ HTTP/1.1" 200 1486
+"GET /get_products/ HTTP/1.1" 200 41778
+"GET /edit_product/12/ HTTP/1.1" 200 1618
+"POST /edit_product/12/ HTTP/1.1" 200 1522
+"GET /get_products/ HTTP/1.1" 200 41686
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /edit_product/13/ HTTP/1.1" 200 1608
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/13/ HTTP/1.1" 200 1527
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
 /root/django_project/Homework/homework_app/views.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /order_list/7/ HTTP/1.1" 200 11275
-code 400, message Bad request version ('À\x14À')
-You're accessing the development server over HTTPS, but it only supports HTTP.
-code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÿv£\x8b·\x13É\x1aä©a¸ÒïÏ{²\x14vXª)Ú×9ü\x16-HJL\x91\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
-You're accessing the development server over HTTPS, but it only supports HTTP.
-2024-02-12 03:56:12 - homepage
-"GET / HTTP/1.1" 200 135
-code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)\x92v\x96ÙD\x99\x9c´Aà«ô~<Ö9¨ÍùZZc_'éÒ\xadèãT°\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
-You're accessing the development server over HTTPS, but it only supports HTTP.
-"GET /order_list/7/ HTTP/1.1" 200 11275
-Watching for file changes with StatReloader
-"GET /orders/7/ HTTP/1.1" 200 1233
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
 Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6187
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /show_order/95/ HTTP/1.1" 200 1377
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /order_list/8/ HTTP/1.1" 200 8692
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /show_order/100/ HTTP/1.1" 200 1348
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /order_list/7/ HTTP/1.1" 200 11275
-"GET /orders/7/ HTTP/1.1" 200 1233
-"GET /show_order/100/ HTTP/1.1" 200 1348
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /edit_product/13/ HTTP/1.1" 200 1527
+/root/django_project/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /edit_product/13/ HTTP/1.1" 200 1527
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /get_product/7 HTTP/1.1" 301 0
+"GET /get_product/7/ HTTP/1.1" 200 636
+"GET /get_product/7/ HTTP/1.1" 200 636
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+Not Found: /get_productы.
+"GET /get_product%D1%8B. HTTP/1.1" 404 6580
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /get_orders/ HTTP/1.1" 200 1867009
+"GET /get_clients/ HTTP/1.1" 200 150487
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+"GET /get_products/ HTTP/1.1" 200 41609
+"POST /edit_product/13/ HTTP/1.1" 200 1527

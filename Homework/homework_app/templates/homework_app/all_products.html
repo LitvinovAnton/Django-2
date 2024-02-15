@@ -5,13 +5,21 @@
         <th>Название</th>
         <th>Описание</th>
         <th>Цена</th>
+        <th>Фото</th>
     </tr>
     {% for product in products %}
-    <tr>
-        <td>{{ product.id }}</td>
-        <td>{{ product.name }}</td>
-        <td>{{ product.description }}</td>
-        <td>{{ product.price }}</td>
-    </tr>
-    {% endfor %}
+<tr>
+    <td>{{ product.id }}</td>
+    <td>{{ product.name }}</td>
+    <td>{{ product.description }}</td>
+    <td>{{ product.price }}</td>
+    <td>
+        {% if product.photo %}
+            <img src="{{ product.photo.url }}" alt="Фото товара" style="max-width: 200px; max-height: 200px;">
+        {% else %}
+            Нет фото
+        {% endif %}
+    </td>
+</tr>
+{% endfor %}
 </table>

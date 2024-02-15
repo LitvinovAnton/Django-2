@@ -1,0 +1,17 @@
+<h2>Карточка товара</h2>
+<table>
+    <tr>
+        <th>ID Товара</th>
+        <th>Название</th>
+        <th>Описание</th>
+        <th>Цена</th>
+        <th>Фото</th>
+    </tr>
+    <tr>
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.description }}</td>
+        <td>{{ product.price }}</td>
+        <td><img src="{{ product.photo.url }}" alt="Фото товара" style="max-width: 200px; max-height: 200px;"></td>
+    </tr>
+</table>

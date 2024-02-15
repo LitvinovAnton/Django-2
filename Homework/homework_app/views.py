@@ -9,6 +9,7 @@ from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 import pytz
 
+from .form import ProductForm
 from .models import Client, Product, Order
 
 # Create your views here.
@@ -71,25 +72,7 @@ def get_client(request, client_id):
 
 def get_product(request, product_id):
     product = Product.objects.get(id=product_id)
-    # Create an HTML table to display the product details
-    html = f"""
-    <h2>Карточка товара</h2>
-    <table>
-        <tr>
-            <th>ID Товара</th>
-            <th>Название</th>
-            <th>Описание</th>
-            <th>цена</th>
-        </tr>
-        <tr>
-            <td>{product.id}</td>
-            <td>{product.name}</td>
-            <td>{product.description}</td>
-            <td>{product.price}</td>
-        </tr>
-    </table>
-    """
-    return HttpResponse(html)
+    return render(request, 'homework_app/get_product.html', {'product': product})
 
 
 def get_order(request, order_id):
@@ -306,3 +289,24 @@ def order_list(request, client_id):
         'client_name': client.name,
         'orders_with_products': orders_with_products
     })
+
+
+# Доработаем задачу про клиентов, заказы и товары из
+# прошлого семинара.
+# Создайте форму для редактирования товаров в базе
+# данных.
+#  Измените модель продукта, добавьте поле для хранения
+# фотографии продукта.
+#  Создайте форму, которая позволит сохранять фото.
+def edit_product(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            if 'photo' not in request.FILES:
+                product.photo = 'homework_app/product_photos/default_image.jpg'
+            form.save()
+    else:
+        form = ProductForm(instance=product)
+    return render(request, 'homework_app/edit_product.html', {'form': form, 'name': product.name})
+
