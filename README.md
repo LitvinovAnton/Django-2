@@ -13,8 +13,10 @@ http://89.23.115.214:8000/edit_product/8/
 http://89.23.115.214:8000/edit_product/8/
 ![Пример](images/edit_product.png) <br>
 ### После редактирования товаров с добавлением фотографии товара
+http://89.23.115.214:8000/get_products/
 ![Пример](images/all_products.png) <br> 
 ### Карточка товара, после добавления фото товара
+http://89.23.115.214:8000/get_product/7/
 ![Пример](images/product.png)<br> <br>
 
 

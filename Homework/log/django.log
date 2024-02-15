@@ -4267,3 +4267,17 @@ Not Found: /favicon.ico
 "GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
 "GET /get_products/ HTTP/1.1" 200 41609
 "POST /edit_product/13/ HTTP/1.1" 200 1527
+"GET /edit_product/8/ HTTP/1.1" 200 1467
+"GET /edit_product/8/ HTTP/1.1" 200 1467
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+"GET /get_product/8 HTTP/1.1" 301 0
+"GET /get_product/8/ HTTP/1.1" 200 498
