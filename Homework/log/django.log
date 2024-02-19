@@ -4281,3 +4281,1442 @@ Not Found: /favicon.ico
 "GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
 "GET /get_product/8 HTTP/1.1" 301 0
 "GET /get_product/8/ HTTP/1.1" 200 498
+"GET /edit_product/8/ HTTP/1.1" 200 1467
+"GET /edit_product/8/ HTTP/1.1" 200 1467
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /get_product/7/ HTTP/1.1" 200 636
+"GET /order_list/7/ HTTP/1.1" 200 10949
+"GET /get_product/8/ HTTP/1.1" 200 498
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /get_products/ HTTP/1.1" 200 41609
+2024-02-15 23:52:07 - homepage
+"GET / HTTP/1.1" 200 135
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+- Broken pipe from ('167.94.138.51', 43278)
+2024-02-16 00:09:21 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.138.51', 49394)
+2024-02-16 00:09:25 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À(À$À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-16 05:25:30 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70686
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 70889
+Watching for file changes with StatReloader
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-16 06:43:02 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'example.com:80'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'example.com:80'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /example.com:80
+"CONNECT example.com:80 HTTP/1.1" 400 70073
+code 400, message Bad request syntax ('\x05\x01\x00')
+code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+" " 400 -
+" P    example.com " 400 -
+Watching for file changes with StatReloader
+2024-02-16 07:15:53 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-16 11:48:48 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+2024-02-16 12:12:15 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+- Broken pipe from ('88.87.70.66', 51046)
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-16 18:18:57 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad request version ('\x08/A')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('t3')
+"t3 12.1.2" 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03J¤\x13\x8d»g:òBòc¡\x81\x81÷h\x9aèOPGÒlÇÎ\x037-2àK¼\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+- Broken pipe from ('142.93.48.132', 49597)
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.0" 400 69916
+code 400, message Bad HTTP/0.9 request type ('l\x00')
+"l          " 400 -
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+"GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 70136
+code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+"  " 400 -
+code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+"   root " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00')
+"          versionbind   " 400 -
+code 400, message Bad request syntax ('HELP')
+"HELP" 400 -
+code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00/\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-17 00:24:23 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /query
+"GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 6568
+Not Found: /cgi-bin/authLogin.cgi
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 6597
+Not Found: /v2/_catalog
+"GET /v2/_catalog HTTP/1.1" 404 6567
+Not Found: /solr/admin/info/system
+"GET /solr/admin/info/system HTTP/1.1" 404 6600
+code 400, message Bad request version ("B\x8aQæ,\x00~\x8cûÃ\x7f$\x80Í}¦dc\x00Á\x00õ¼(ÆÕ¼(¦º\x9b\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /solr/admin/cores
+"GET /solr/admin/cores?action=STATUS&wt=json HTTP/1.1" 404 6608
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+code 400, message Bad request version ('\x03\x90\x04\x9cwðð\x04DD')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-17 00:34:02 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+"  à          " 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x03\x00')
+"   TZ                üµÁZ^ÐD+'  trrsrtscXt                      tsXrcsXYs9      " 400 -
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.0" 400 69917
+code 400, message Bad HTTP/0.9 request type ('l\x00')
+"l          " 400 -
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+"GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 70137
+code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+"  " 400 -
+code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+"   root " 400 -
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /
+"OPTIONS / HTTP/1.0" 400 69945
+code 400, message Bad request version ('RTSP/1.0')
+"OPTIONS / RTSP/1.0" 400 -
+code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+"  (rþ          |                    " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00')
+"          versionbind   " 400 -
+code 400, message Bad request syntax ('HELP')
+"HELP" 400 -
+code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00/\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+"   qjn0k¡¢" 400 -
+code 400, message Bad request version ('0.12\x00')
+"   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+code 400, message Bad request version ('SIP/2.0')
+"OPTIONS sip:nm SIP/2.0" 400 -
+code 400, message Bad request version ('\x00/\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-17 04:50:33 - homepage
+Not Found: /Portal/Portal.mwsl
+"GET /Portal/Portal.mwsl HTTP/1.1" 404 6588
+"GET / HTTP/1.1" 200 135
+Not Found: /l4mO
+"GET /l4mO HTTP/1.1" 404 6546
+Not Found: /.git/HEAD
+"GET /.git/HEAD HTTP/1.1" 404 6561
+Not Found: /rest/applinks/1.0/manifest
+"GET /rest/applinks/1.0/manifest HTTP/1.1" 404 6612
+2024-02-17 04:50:33 - homepage
+"GET / HTTP/1.1" 200 135
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Not Found: /Portal0000.htm
+"GET /Portal0000.htm HTTP/1.1" 404 6576
+Not Found: /confluence/rest/applinks/1.0/manifest
+"GET /confluence/rest/applinks/1.0/manifest HTTP/1.1" 404 6645
+Not Found: /docs/cplugError.html/
+"GET /docs/cplugError.html/ HTTP/1.1" 404 6597
+Bad Request: /http:/www.google.com
+"GET http://www.google.com HTTP/1.0" 400 69997
+2024-02-17 04:50:33 - homepage
+"GET /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 135
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.google.com
+"HEAD http://www.google.com HTTP/1.0" 400 0
+Not Found: /nmaplowercheck1708134633
+"GET /nmaplowercheck1708134633 HTTP/1.1" 404 6606
+Not Found: /__Additional
+"GET /__Additional HTTP/1.1" 404 6570
+2024-02-17 04:50:34 - homepage
+"GET /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000 HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /home.jsp
+"GET /home.jsp HTTP/1.1" 404 6558
+Not Found: /CSS/Miniweb.css
+"GET /CSS/Miniweb.css HTTP/1.1" 404 6579
+Not Found: /sdk
+"POST /sdk HTTP/1.1" 404 6544
+Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '2368883-ct77692.twc1.net:8000'. You may need to add '2368883-ct77692.twc1.net' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:80
+Not Found: /HNAP1
+"GET /HNAP1 HTTP/1.1" 404 6549
+"CONNECT www.google.com:80 HTTP/1.0" 400 70038
+Not Found: /server-status
+"GET /server-status HTTP/1.1" 404 6573
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 6564
+Not Found: /default.jhtml
+"GET /default.jhtml HTTP/1.1" 404 6573
+Not Found: /home.cfm
+"GET /home.cfm HTTP/1.1" 404 6558
+Not Found: /menu.cfm
+"GET /menu.cfm HTTP/1.1" 404 6558
+Not Found: /home.jhtml
+"GET /home.jhtml HTTP/1.1" 404 6564
+Not Found: /admin.cgi
+"GET /admin.cgi HTTP/1.1" 404 6561
+Not Found: /base.html
+"GET /base.html HTTP/1.1" 404 6561
+Not Found: /inicio.pl
+"GET /inicio.pl HTTP/1.1" 404 6561
+Not Found: /indice.jsa
+"GET /indice.jsa HTTP/1.1" 404 6564
+Not Found: /default.html
+"GET /default.html HTTP/1.1" 404 6570
+Not Found: /localstart.jhtml
+"GET /localstart.jhtml HTTP/1.1" 404 6582
+Not Found: /default.jsa
+"GET /default.jsa HTTP/1.1" 404 6567
+Not Found: /main.jsa
+"GET /main.jsa HTTP/1.1" 404 6558
+Not Found: /admin.shtml
+"GET /admin.shtml HTTP/1.1" 404 6567
+Not Found: /admin.cfm
+"GET /admin.cfm HTTP/1.1" 404 6561
+Not Found: /admin.pl
+"GET /admin.pl HTTP/1.1" 404 6558
+Invalid HTTP_HOST header: 'www'. You may need to add 'www' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www'. You may need to add 'www' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 70178
+Not Found: /menu.jsp
+"GET /menu.jsp HTTP/1.1" 404 6558
+Not Found: /localstart.cfm
+"GET /localstart.cfm HTTP/1.1" 404 6576
+Not Found: /admin.php
+"GET /admin.php HTTP/1.1" 404 6561
+Not Found: /admin.jsp
+"GET /admin.jsp HTTP/1.1" 404 6561
+Not Found: /index.jsa
+"GET /index.jsa HTTP/1.1" 404 6561
+Not Found: /home.pl
+"GET /home.pl HTTP/1.1" 404 6555
+Not Found: /inicio.cfm
+"GET /inicio.cfm HTTP/1.1" 404 6564
+Not Found: /admin.jsa
+"GET /admin.jsa HTTP/1.1" 404 6561
+Not Found: /admin.jhtml
+"GET /admin.jhtml HTTP/1.1" 404 6567
+Not Found: /base.shtml
+"GET /base.shtml HTTP/1.1" 404 6564
+Not Found: /admin.html
+"GET /admin.html HTTP/1.1" 404 6564
+Not Found: /main.cfm
+"GET /main.cfm HTTP/1.1" 404 6558
+Not Found: /indice.pl
+"GET /indice.pl HTTP/1.1" 404 6561
+Not Found: /menu.asp
+"GET /menu.asp HTTP/1.1" 404 6558
+Not Found: /main.jhtml
+"GET /main.jhtml HTTP/1.1" 404 6564
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.1" 404 6564
+Not Found: /index.shtml
+"GET /index.shtml HTTP/1.1" 404 6567
+code 400, message Bad request version ("\x1bØûµtá\x88\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-17 04:50:43 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+"               bbbb0100000001" 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-17 06:30:03 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+- Broken pipe from ('167.248.133.36', 54018)
+2024-02-17 07:05:49 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.248.133.36', 38606)
+2024-02-17 07:05:53 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+2024-02-17 08:00:58 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03\x98\x11Íðu·¸\x92ò/\x82ØÞ\x143Í?#++q\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-17 09:21:35 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-17 09:21:35 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /.vscode/sftp.json
+"GET /.vscode/sftp.json HTTP/1.1" 404 6585
+"GET /about HTTP/1.1" 301 0
+Not Found: /debug/default/view
+"GET /debug/default/view?panel=config HTTP/1.1" 404 6601
+Not Found: /v2/_catalog
+"GET /v2/_catalog HTTP/1.1" 404 6567
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+"GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 6759
+Not Found: /server-status
+"GET /server-status HTTP/1.1" 404 6573
+Not Found: /_all_dbs
+"GET /_all_dbs HTTP/1.1" 404 6558
+Not Found: /.DS_Store
+"GET /.DS_Store HTTP/1.1" 404 6561
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+Not Found: /.git/config
+"GET /.git/config HTTP/1.1" 404 6567
+Not Found: /s/431323e2531313e23323e29383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+"GET /s/431323e2531313e23323e29383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 6830
+Not Found: /config.json
+"GET /config.json HTTP/1.1" 404 6567
+Not Found: /telescope/requests
+"GET /telescope/requests HTTP/1.1" 404 6588
+2024-02-17 09:21:37 - homepage
+"GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-17 12:42:32 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70625
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 70828
+Watching for file changes with StatReloader
+- Broken pipe from ('162.142.125.10', 46712)
+2024-02-17 13:06:55 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('162.142.125.10', 47858)
+2024-02-17 13:06:58 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('MGLNDD_89.23.115.214_8000')
+"MGLNDD_89.23.115.214_8000" 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+Watching for file changes with StatReloader
+2024-02-17 19:27:28 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03Î\x1ak÷\x9e*\x92>øãâ5\x90þ\x0eÈ¸.kü\x02çWd\x13ã\x13\x89Ê\x02\x8fl\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x02\x00\x84')
+"   TZ          0I     " 400 -
+Watching for file changes with StatReloader
+2024-02-17 23:41:02 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /get_products/ HTTP/1.1" 200 41609
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+Watching for file changes with StatReloader
+2024-02-18 03:32:26 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-18 03:56:01 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /HNAP1/
+"GET /HNAP1/ HTTP/1.1" 404 6552
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-18 05:01:50 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70760
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 70963
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-18 11:55:07 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-18 13:02:43 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.1" 404 6564
+Not Found: /sitemap.xml
+"GET /sitemap.xml HTTP/1.1" 404 6567
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /.DS_Store
+"GET /.DS_Store HTTP/1.1" 404 6561
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-18 22:03:04 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+2024-02-18 22:53:34 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+Watching for file changes with StatReloader
+Not Found: /.vscode/sftp.json
+"GET /.vscode/sftp.json HTTP/1.1" 404 6585
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('MGLNDD_89.23.115.214_8000')
+"MGLNDD_89.23.115.214_8000" 400 -
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+Watching for file changes with StatReloader
+2024-02-19 02:19:58 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /.git/config
+"GET /.git/config HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-19 07:29:26 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+"  à          " 400 -
+2024-02-19 07:54:29 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70775
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 70978
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('nil')
+"nil" 400 -
+2024-02-19 12:10:39 - homepage
+"GET / HTTP/1.0" 200 135
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+Watching for file changes with StatReloader
+- Broken pipe from ('77.223.103.53', 33879)
+2024-02-19 14:18:28 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('77.223.103.53', 33880)
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_app/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 304 0
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7600
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/homework_app/order/ HTTP/1.1" 200 131018
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61916
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /admin/homework_app/product/ HTTP/1.1" 302 0
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61915
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61915
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/group/ HTTP/1.1" 200 9001
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14164
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 10742
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14164
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11082
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14164
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11438
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/user/ HTTP/1.1" 200 13599
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12456
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25194
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14363
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12456
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 25184
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14891
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12456
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 25184
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 15421
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 131018
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61915
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/ HTTP/1.1" 200 131018
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/ HTTP/1.1" 200 131018
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 64747
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/homework_app/client/1000/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 836, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 715, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1947, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1803, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1838, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 838, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 500 152174
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/homework_app/client/1000/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 836, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 715, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1947, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1803, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1838, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 838, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 500 152174
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Internal Server Error: /admin/homework_app/client/1000/change/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 836, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "/usr/local/lib/python3.10/dist-packages/django/forms/models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 715, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1947, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1803, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 1838, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/admin/options.py", line 838, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 500 152174
+2024-02-19 22:51:11 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_app/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/ HTTP/1.1" 200 11215
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 15197
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6336
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105509
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133255
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 60920
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133255
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 63285
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105509
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 11016
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 60920
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 11717
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133255
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 63285
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10956
+"GET /admin/auth/group/ HTTP/1.1" 200 11215
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/3/change/ HTTP/1.1" 200 14506
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11440
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 15197
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25080
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 15423
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6340
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133255
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 10641
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105509
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133255
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 10641
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 60920
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105509
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11345
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6340
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105509
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11345
+"GET /admin/auth/group/ HTTP/1.1" 200 11215
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 15197
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25071
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/ HTTP/1.1" 200 11215
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/1/change/ HTTP/1.1" 200 14501
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61915
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12712
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61915
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12712
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134250
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12759
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132046
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/?o=1 HTTP/1.1" 200 142654
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/?o=-1 HTTP/1.1" 200 143822
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/157/change/?_changelist_filters=o%3D-1 HTTP/1.1" 200 12849
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/root/django_project/Homework/homework_app/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_app/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app/client/157/change/?_changelist_filters=o%3D-1 HTTP/1.1" 200 12875
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12785
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 65026
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62023
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62023
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 65026
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12785
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62023
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 65026
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62023
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/97/change/ HTTP/1.1" 200 12793
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/root/django_project/Homework/homework_app/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12785
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 65026
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62098
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/homework_app/product/ HTTP/1.1" 302 0
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62098
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62098
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12785
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62098
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/100/change/ HTTP/1.1" 200 12763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 62098
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/?q=19+%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8F HTTP/1.1" 200 14530
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/?q= HTTP/1.1" 200 64836
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/?q=%D1%82%D0%B0%D1%80%D0%B5%D0%BB%D0%BA%D0%B0 HTTP/1.1" 200 18565
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/?q= HTTP/1.1" 200 64836
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 65026
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/ HTTP/1.1" 200 15197
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25071
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 15423
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6340
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133309
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105566
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133309
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 105566
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 11042
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/ HTTP/1.1" 200 133309
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/order/14932/change/ HTTP/1.1" 200 10667
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/product/ HTTP/1.1" 200 61103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11357
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/1000/change/ HTTP/1.1" 200 12785
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/homework_app/client/ HTTP/1.1" 200 132103
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/homework_app/order/ HTTP/1.1" 200 134304
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6340
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11357
+2024-02-20 00:21:31 - homepage
+"GET / HTTP/1.1" 200 135
+"POST /admin/logout/ HTTP/1.1" 200 3821
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363

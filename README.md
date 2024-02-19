@@ -1,4 +1,27 @@
-Домашняя работа 4. Работа с формами<br>
+Домашняя работа 5. Работа с административной панелью <br>
+данные для входа сотрудника:
+login - employee_1
+password - xtnx$FTZ75qxbtZ
+### изменения в models.py: добавлено verbose_name, заменены названия переменных на комфортные именования
+### изменения в admin.py - реализованы настройки отображения, фильтры, поля "только для чтения". Actions придумал только 2, для Product
+### добавлены группы админы, клиенты, сотрудники
+![Пример](images/admin_django/admin_groups.png) <br>
+### создано несколько пользователей
+![Пример](images/admin_django/admin_users.png) <br> <br>
+
+### настроен удобный вид таблиц
+![Пример](images/admin_django/admin_clients.png) <br>
+![Пример](images/admin_django/admin_orders.png) <br>
+![Пример](images/admin_django/admin_products.png) <br> <br>
+
+### Настроены удобные карточки просмотра/редактирования каждой сущности
+![Пример](images/admin_django/admin_client.png) <br>
+![Пример](images/admin_django/admin_order.png) <br>
+![Пример](images/admin_django/admin_product.png) <br>
+
+
+
+Домашняя работа 4. Работа с формами <br>
 Создайте форму для редактирования товаров в базе
 данных. <br>
 Появилась форма **ProductForm** <br>
