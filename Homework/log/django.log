@@ -5720,3 +5720,9 @@ Not Found: /favicon.ico
 "POST /admin/logout/ HTTP/1.1" 200 3821
 "GET /admin/ HTTP/1.1" 302 0
 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
