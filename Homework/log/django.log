@@ -6642,3 +6642,10 @@ Not Found: /favicon.ico
 "GET /show_order/7/ HTTP/1.0" 200 1627
 "GET /order_list/7/ HTTP/1.0" 200 9058
 "GET /get_orders/ HTTP/1.0" 200 2023724
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+Watching for file changes with StatReloader
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -

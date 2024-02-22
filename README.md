@@ -1,8 +1,10 @@
 Урок 6. Развёртывание проекта <br>
 ссылка на сайт: <br>
-[burlakovshop](http://burlakovshop.ru "магазин") <br>
+[burlakovshop.ru](http://burlakovshop.ru "магазин") <br>
 ### Домашняя страница, вид:
 ![Пример](images/last_homework/homepage.png) <br>
+### облачный сервер Timeweb:
+![Пример](images/last_homework/timeweb_cloud.png) <br>
 **Nginx служит в качестве обратного прокси-сервера для Gunicorn, обрабатывая статические файлы и перенаправляя запросы к Gunicorn для обработки Python-кода.**
 ### gunicorn, gunicorn.socket:
 ![Пример](images/last_homework/gunicorn_and_gunicornsocket.png) <br>
