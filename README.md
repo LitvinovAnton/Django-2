@@ -1,3 +1,13 @@
+Урок 6. Развёртывание проекта <br>
+ссылка на сайт: <br>
+[burlakovshop](http://burlakovshop.ru "магазин") <br>
+### Домашняя страница, вид:
+![Пример](images/last_homework/homepage.png) <br>
+**Nginx служит в качестве обратного прокси-сервера для Gunicorn, обрабатывая статические файлы и перенаправляя запросы к Gunicorn для обработки Python-кода.**
+### gunicorn, gunicorn.socket:
+![Пример](images/last_homework/gunicorn_and_gunicornsocket.png) <br>
+### nginx:
+![Пример](images/last_homework/nginx.png) <br> <br> <br>
 Домашняя работа 5. Работа с административной панелью <br>
 ### URL для входа в административную панель:
 http://89.23.115.214:8000/admin/

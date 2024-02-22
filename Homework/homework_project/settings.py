@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '89.23.115.214',
-    '127.0.0.1']
+    '127.0.0.1', 'burlakovshop.ru',
+    'localhost']
 
 
 # Application definition
@@ -122,7 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
+# STATIC_ROOT = BASE_DIR / 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -157,4 +159,4 @@ LOGGING = {
 
 MEDIA_URL = '/Homework/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'Homework')
-'/home/valery/PycharmProjects/django_homeworks/Homework/'
+# '/home/valery/PycharmProjects/django_homeworks/Homework/'

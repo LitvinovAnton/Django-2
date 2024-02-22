@@ -5726,3 +5726,919 @@ Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 6567
 "GET /admin/ HTTP/1.1" 302 0
 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4363
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11357
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+Watching for file changes with StatReloader
+2024-02-20 02:01:12 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03¥\x0eç\x1b\x05³¶\x84Ì¿zæ/ü\x13')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-20 03:08:08 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-20 03:08:08 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /.vscode/sftp.json
+"GET /.vscode/sftp.json HTTP/1.1" 404 6585
+"GET /about HTTP/1.1" 301 0
+Not Found: /debug/default/view
+"GET /debug/default/view?panel=config HTTP/1.1" 404 6601
+Not Found: /v2/_catalog
+"GET /v2/_catalog HTTP/1.1" 404 6567
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+"GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 6759
+Not Found: /server-status
+"GET /server-status HTTP/1.1" 404 6573
+Not Found: /_all_dbs
+"GET /_all_dbs HTTP/1.1" 404 6558
+Not Found: /.DS_Store
+"GET /.DS_Store HTTP/1.1" 404 6561
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+Not Found: /.git/config
+"GET /.git/config HTTP/1.1" 404 6567
+Not Found: /s/431323e2531313e23323e29383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+"GET /s/431323e2531313e23323e29383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 6830
+Not Found: /config.json
+"GET /config.json HTTP/1.1" 404 6567
+Not Found: /telescope/requests
+"GET /telescope/requests HTTP/1.1" 404 6588
+2024-02-20 03:08:12 - homepage
+"GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-20 07:39:25 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+2024-02-20 08:12:32 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+Not Found: /.env
+"GET /.env HTTP/1.1" 404 6546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+- Broken pipe from ('167.94.138.36', 54748)
+2024-02-20 13:04:53 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.138.36', 37612)
+2024-02-20 13:04:57 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('MGLNDD_89.23.115.214_8000')
+"MGLNDD_89.23.115.214_8000" 400 -
+Watching for file changes with StatReloader
+2024-02-20 17:28:42 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70753
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 70956
+code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+"  à          " 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+- Broken pipe from ('212.66.34.56', 61469)
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+code 400, message Bad request version ('OÑËÜ®Ëd')
+"   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.1" 200 150487
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8fÔkÓËVîÞx6÷f¹öõ®O\x18èåù;:\x9d3\x97\x87f&¯\x81«\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 304 0
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /orders/7/ HTTP/1.1" 200 1233
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /show_order/97/ HTTP/1.1" 200 1477
+"GET /show_order/91/ HTTP/1.1" 200 1263
+"GET /get_clients/ HTTP/1.1" 200 150487
+"GET /get_client/17/ HTTP/1.1" 200 413
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /get_product/21/ HTTP/1.1" 200 692
+"GET /get_order/37/ HTTP/1.1" 200 1384
+"GET /products_by_order/37/ HTTP/1.1" 200 1245
+"GET /get_orders/ HTTP/1.1" 200 2023724
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+- Broken pipe from ('162.142.125.212', 42414)
+2024-02-21 02:12:46 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('162.142.125.212', 52200)
+2024-02-21 02:12:50 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /get_products/ HTTP/1.1" 200 41609
+Watching for file changes with StatReloader
+2024-02-21 03:00:08 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-21 03:00:11 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-21 03:07:12 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /about HTTP/1.1" 301 0
+2024-02-21 03:10:00 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-21 03:10:03 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-21 03:10:05 - about us page
+"GET /about/ HTTP/1.1" 200 157
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+2024-02-21 03:28:30 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-21 03:28:33 - homepage
+"GET / HTTP/1.1" 200 135
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+2024-02-21 03:52:13 - about us page
+"GET /about/ HTTP/1.1" 200 157
+2024-02-21 03:52:21 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+2024-02-21 03:54:50 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+2024-02-21 04:21:58 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.1" 404 6564
+Not Found: /sitemap.xml
+"GET /sitemap.xml HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+2024-02-21 05:27:22 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ª£^7s?B!SVzº2\x7fA\x89ç{\x18·4\x00.ÍÇl\x8e·\x9e£ó')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('t3')
+"t3 12.1.2" 400 -
+2024-02-21 05:38:14 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /sitemap.xml
+"GET /sitemap.xml HTTP/1.1" 404 6567
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.1" 404 6564
+Watching for file changes with StatReloader
+2024-02-21 06:14:59 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-21 10:00:49 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-21 10:01:11 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /api/session/properties
+"GET /api/session/properties HTTP/1.1" 404 6600
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ('MGLNDD_89.23.115.214_8000')
+"MGLNDD_89.23.115.214_8000" 400 -
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+Watching for file changes with StatReloader
+2024-02-21 12:28:58 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('23.168.152.107', 35356)
+2024-02-21 12:44:32 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70893
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 71096
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+"Z¥     " 400 -
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'judge5.api.proxyscrape.com'. You may need to add 'judge5.api.proxyscrape.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'judge5.api.proxyscrape.com'. You may need to add 'judge5.api.proxyscrape.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'ssl-judge2.api.proxyscrape.com:443'. You may need to add 'ssl-judge2.api.proxyscrape.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'ssl-judge2.api.proxyscrape.com:443'. You may need to add 'ssl-judge2.api.proxyscrape.com' to ALLOWED_HOSTS.
+Bad Request: /http:/judge5.api.proxyscrape.com/
+"GET http://judge5.api.proxyscrape.com/ HTTP/1.1" 400 70563
+Bad Request: /ssl-judge2.api.proxyscrape.com:443
+"CONNECT ssl-judge2.api.proxyscrape.com:443 HTTP/1.1" 400 70696
+code 400, message Bad HTTP/0.9 request type ('\x04\x01\x01»h\x12')
+code 400, message Bad request syntax ('\x05\x01\x00')
+"»h " 400 -
+" " 400 -
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Watching for file changes with StatReloader
+- Broken pipe from ('167.94.138.124', 43852)
+2024-02-21 19:22:48 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.138.124', 44572)
+2024-02-21 19:22:52 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+code 400, message Bad request syntax ('\x00\x00\x00àZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x05\x01=K\x00\x00\x01\x01\x05\x00\x08')
+"   àZ          =K   " 400 -
+Watching for file changes with StatReloader
+Not Found: /.DS_Store
+"GET /.DS_Store HTTP/1.1" 404 6561
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-21 22:38:56 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Not Found: /.vscode/sftp.json
+"GET /.vscode/sftp.json HTTP/1.1" 404 6585
+Watching for file changes with StatReloader
+2024-02-22 00:04:51 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.146.59', 56526)
+2024-02-22 00:38:51 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.146.59', 45658)
+2024-02-22 00:38:54 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.0" 404 6561
+2024-02-22 01:42:33 - homepage
+"GET / HTTP/1.0" 200 135
+Watching for file changes with StatReloader
+Not Found: /.git/config
+"GET /.git/config HTTP/1.1" 404 6567
+code 400, message Bad request version ('cof\x91À\x80sJ5Ò\x80æ\x9a~¹Ç\x83^\x96îN\x16\x96\x96&æ\x03ê¼\x81\x02=¬\x10ú?7\x03Ãß÷ä\x98`pæ\x8dÁ©\x8dÆ\x06Û¯\x91ç\x82s÷\x14HÔáW\x9a\x93C\x9e]¤\x01#\x03#\x03]\x03c]CC\x05C\x03+S\x03bô\x00\x00/\x9e\x16E')
+"    ¿      NIMABIJIAN  {CaigÇeBÅ	Áa	cofÀsJ5Òæ~¹Ç^îN&æê¼=¬ú?7Ãß÷ä`pæÁ©ÆÛ¯çs÷HÔáWC]¤##]c]CCC+Sbô  /E" 400 -
+Watching for file changes with StatReloader
+2024-02-22 03:07:33 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-22 03:07:54 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /api/session/properties
+"GET /api/session/properties HTTP/1.1" 404 6600
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-22 05:09:14 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('43.157.198.106', 59690)
+2024-02-22 05:09:51 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+2024-02-22 05:50:46 - homepage
+"GET / HTTP/1.0" 200 135
+Watching for file changes with StatReloader
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.0" 404 6561
+2024-02-22 06:44:27 - homepage
+"GET / HTTP/1.0" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-22 08:57:49 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+"GET http://api.ipify.org/?format=json HTTP/1.1" 400 70866
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+"CONNECT www.shadowserver.org:443 HTTP/1.1" 400 71069
+Watching for file changes with StatReloader
+2024-02-22 09:49:15 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /robots.txt
+"GET /robots.txt HTTP/1.0" 404 6561
+Watching for file changes with StatReloader
+2024-02-22 10:04:13 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 10:04:14 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /pY89D3gD/
+"GET /pY89D3gD/ HTTP/1.0" 404 6558
+- Broken pipe from ('167.94.138.126', 39550)
+2024-02-22 10:47:11 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.138.126', 53952)
+2024-02-22 10:47:15 - homepage
+"GET / HTTP/1.1" 200 135
+code 505, message Invalid HTTP version (2.0)
+"PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Watching for file changes with StatReloader
+2024-02-22 11:03:40 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-22 11:06:27 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 11:15:37 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 11:29:43 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 11:35:09 - homepage
+"HEAD / HTTP/1.0" 200 0
+2024-02-22 11:35:09 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.0" 404 6564
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.0" 404 6564
+2024-02-22 11:35:58 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 11:47:37 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Watching for file changes with StatReloader
+2024-02-22 12:00:16 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 12:10:24 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 12:11:39 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 12:11:52 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 12:34:52 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Bad Request: /google.com:443
+"CONNECT google.com:443 HTTP/1.1" 400 70214
+Watching for file changes with StatReloader
+2024-02-22 14:34:04 - homepage
+"GET / HTTP/1.0" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+2024-02-22 16:18:02 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-22 16:20:20 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Watching for file changes with StatReloader
+2024-02-22 17:18:16 - homepage
+"GET / HTTP/1.1" 200 135
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Watching for file changes with StatReloader
+code 400, message Bad request version ('À\x14À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+"    c                           " 400 -
+Watching for file changes with StatReloader
+2024-02-22 20:25:45 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-22 20:45:45 - homepage
+"GET / HTTP/1.1" 200 135
+- Broken pipe from ('167.94.145.58', 42156)
+Watching for file changes with StatReloader
+2024-02-22 21:37:07 - homepage
+"GET / HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /3ds1633693954432212
+"GET /3ds1633693954432212 HTTP/1.0" 404 6588
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /merchant/z/payment/
+"GET /merchant/z/payment/?order=1 HTTP/1.0" 404 6596
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /merchant/code
+"GET /merchant/code HTTP/1.0" 404 6570
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /3ds.php
+"GET /3ds.php HTTP/1.0" 404 6552
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-22 23:27:50 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+2024-02-22 23:27:59 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-22 23:28:11 - homepage
+"GET / HTTP/1.1" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /get_clients/ HTTP/1.1" 200 150487
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.1" 200 91165
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.1" 200 12235
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.1" 200 11583
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.1" 200 2830
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.1" 200 5894
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.1" 200 153212
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.1" 200 3233
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.1" 200 41400
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.1" 200 6677
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.1" 200 41609
+"GET /get_products/ HTTP/1.1" 200 41609
+2024-02-22 23:51:46 - homepage
+"GET / HTTP/1.1" 200 135
+2024-02-22 23:52:20 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-22 23:52:24 - homepage
+"GET / HTTP/1.0" 200 135
+"GET /about HTTP/1.0" 301 0
+2024-02-22 23:52:29 - about us page
+"GET /about/ HTTP/1.0" 200 157
+"GET /get_clients/ HTTP/1.0" 200 150487
+Not Found: /get_cproducts/
+"GET /get_cproducts/ HTTP/1.0" 404 6573
+2024-02-22 23:53:02 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-22 23:53:08 - homepage
+"GET / HTTP/1.0" 200 135
+"GET /get_products HTTP/1.0" 301 0
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.0" 200 91165
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.0" 200 12235
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.0" 200 2830
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.0" 200 6677
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.0" 200 153212
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.0" 200 41400
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.0" 200 5894
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.0" 200 11583
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.0" 200 3233
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.0" 200 91165
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.0" 200 12235
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.0" 200 11583
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.0" 200 2830
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.0" 200 153212
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.0" 200 5894
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.0" 200 41400
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.0" 200 6677
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.0" 200 3233
+Watching for file changes with StatReloader
+"GET /get_products/ HTTP/1.0" 200 41609
+Not Found: /g
+"GET /g HTTP/1.0" 404 6534
+2024-02-23 00:05:06 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-23 00:12:10 - homepage
+2024-02-23 00:15:58 - homepage
+"GET / HTTP/1.0" 200 135
+2024-02-23 00:16:03 - about us page
+"GET /about/ HTTP/1.0" 200 157
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.0" 404 6591
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+Not Found: /apple-touch-icon-precomposed.png
+"GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 6627
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.0" 200 91165
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.0" 200 2830
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.0" 200 6677
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.0" 200 41400
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.0" 200 5894
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.0" 200 12235
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.0" 200 153212
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.0" 200 11583
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.0" 200 3233
+2024-02-23 00:16:38 - about us page
+"GET /about/ HTTP/1.1" 200 157
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6567
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-23 00:16:42 - homepage
+2024-02-23 00:17:24 - about us page
+"GET /about/ HTTP/1.0" 200 157
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /get_clients/ HTTP/1.0" 200 150487
+2024-02-23 00:28:06 - homepage
+2024-02-23 00:41:37 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+2024-02-23 00:47:37 - homepage
+"GET / HTTP/1.0" 200 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 404 6564
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET /get_clients/ HTTP/1.0" 200 150487
+Not Found: /favicon.ico
+2024-02-23 00:56:53 - homepage
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+"GET /favicon.ico HTTP/1.0" 400 71425
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /get_clients/
+"GET /get_clients/ HTTP/1.0" 400 71582
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /get_products/
+"GET /get_products/ HTTP/1.0" 400 71594
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /get_products/
+"GET /get_products/ HTTP/1.0" 400 71594
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /get_products/
+"GET /get_products/ HTTP/1.0" 400 71594
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.burlakovshop.ru'. You may need to add 'www.burlakovshop.ru' to ALLOWED_HOSTS.
+Bad Request: /about/
+"GET /about/ HTTP/1.0" 400 71506
+code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+"  /*à     Cookie: mstshash=Administr" 400 -
+2024-02-23 01:20:12 - homepage
+/root/django_project/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/root/django_project/Homework/homework_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET / HTTP/1.0" 200 1647
+"GET /about/ HTTP/1.0" 200 163
+"GET /about/ HTTP/1.0" 200 163
+Not Found: /favicon.ico
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /Homework/homework_app/product_photos/ruchka.jpg HTTP/1.0" 200 12235
+"GET /Homework/homework_app/product_photos/closet.jpg HTTP/1.0" 200 91165
+"GET /Homework/homework_app/product_photos/notebook.jpeg HTTP/1.0" 200 2830
+"GET /Homework/homework_app/product_photos/chair.jpg HTTP/1.0" 200 153212
+"GET /Homework/homework_app/product_photos/vacuum_cleaner.jpeg HTTP/1.0" 200 5894
+"GET /Homework/homework_app/product_photos/book.jpg HTTP/1.0" 200 11583
+"GET /Homework/homework_app/product_photos/brauberg.jpg HTTP/1.0" 200 41400
+"GET /Homework/homework_app/product_photos/wineglass.png HTTP/1.0" 200 3233
+"GET /Homework/homework_app/product_photos/default_image.jpg HTTP/1.0" 200 6677
+"GET /edit_product/8/ HTTP/1.0" 200 1541
+"GET /show_order/7/ HTTP/1.0" 200 1627
+"GET /order_list/7/ HTTP/1.0" 200 9058
+"GET /get_orders/ HTTP/1.0" 200 2023724
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+"GET /about/ HTTP/1.0" 200 163
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /get_orders/ HTTP/1.0" 200 2023724
+"GET /edit_product/8/ HTTP/1.0" 200 1541
+"GET /show_order/7/ HTTP/1.0" 200 1627
+"GET /order_list/7/ HTTP/1.0" 200 9058
+"GET / HTTP/1.0" 200 1647
+Not Found: /favicon.ico
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+Not Found: /favicon.ico
+"GET / HTTP/1.0" 200 1647
+Not Found: /favicon.ico
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+Not Found: /favicon.ico
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+"GET / HTTP/1.0" 200 1647
+"GET /about/ HTTP/1.0" 200 163
+"GET /get_clients/ HTTP/1.0" 200 150487
+"GET /get_products/ HTTP/1.0" 200 41609
+"GET /edit_product/8/ HTTP/1.0" 200 1541
+"GET /show_order/7/ HTTP/1.0" 200 1627
+"GET /order_list/7/ HTTP/1.0" 200 9058
+"GET /get_orders/ HTTP/1.0" 200 2023724
