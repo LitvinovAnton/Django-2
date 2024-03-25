@@ -1,6 +1,3 @@
-Урок 6. Развёртывание проекта <br>
-ссылка на сайт: <br>
-[burlakovshop.ru](http://burlakovshop.ru "магазин") <br>
 ### Домашняя страница, вид:
 ![Пример](images/last_homework/homepage.png) <br>
 ### облачный сервер Timeweb:
