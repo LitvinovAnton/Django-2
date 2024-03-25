@@ -19,7 +19,7 @@ password - xtnx$FTZ75qxbtZ
 ![Пример](images/admin_django/admin_users.png) <br> <br>
 
 ### настроен удобный вид таблиц
-![Пример] <br>
+![Пример](images/admin_django/admin_clients.png)<br>
 ![Пример](images/admin_django/admin_orders.png) <br>
 ![Пример](images/admin_django/admin_products.png) <br> <br>
 
